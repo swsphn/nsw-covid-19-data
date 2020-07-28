@@ -2,19 +2,24 @@
 var daily_and_cumulative_cases_spec = {
   $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
   autosize: 'fit',
-  width: "container",
-  height: "container",
-  //data: {"url": "covid-19-cases-by-notification-date-and-postcode-local-health-district-and-local-government-area.csv"},
-  data: {"url": "https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-and-postcode-local-health-district-and-local-government-area.csv"},
-  transform: [{
-    "window": [{"op": "count", "field": "notification_date", "as": "cumulative_count"}],
-    "frame": [null,0]
-  }],
+  width: 'container',
+  height: 'container',
+  //data: {'url': 'covid-19-cases-by-notification-date-and-postcode-local-health-district-and-local-government-area.csv'},
+  data: {'url': 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-and-postcode-local-health-district-and-local-government-area.csv'},
+  transform: [
+    {
+      filter: {field: 'lhd_2010_name', equal: 'South Western Sydney'}
+    },
+    {
+      window: [{op: 'count', field: 'notification_date', as: 'cumulative_count'}],
+      frame: [null,0]
+    }
+  ],
   layer: [
     {
       mark: 'bar',
       encoding: {
-        x: {timeUnit: "yearmonthdate", field: "notification_date"},
+        x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal'},
         y: {
           aggregate: 'count',
           field: 'lga_name19',
@@ -23,17 +28,17 @@ var daily_and_cumulative_cases_spec = {
             title: 'Daily Cases'
           }
         },
-        color: {field: "lhd_2010_name"}
+        color: {field: 'lga_name19', type: 'nominal'}
       },
     },
     {
       mark: 'line',
       encoding: {
-        x: {timeUnit: "yearmonthdate", field: "notification_date", title: "Date"},
+        x: {timeUnit: 'yearmonthdate', field: 'notification_date', title: 'Date', type: 'temporal'},
         y: {
           aggregate: 'max',
-          field: "cumulative_count",
-          type: "quantitative",
+          field: 'cumulative_count',
+          type: 'quantitative',
           axis: {
             title: 'Cumulative Daily Cases'
           }
@@ -41,7 +46,7 @@ var daily_and_cumulative_cases_spec = {
       }
     }
   ],
-  resolve: {scale: {y: "independent"}}
+  resolve: {scale: {y: 'independent'}}
 };
 
 // Embed the visualization in the container with id `vis`
