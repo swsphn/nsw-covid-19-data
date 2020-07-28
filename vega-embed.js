@@ -5,7 +5,7 @@ var daily_and_cumulative_cases_spec = {
   width: 'container',
   height: 'container',
   //data: {'url': 'covid-19-cases-by-notification-date-and-postcode-local-health-district-and-local-government-area.csv'},
-  data: {'url': 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-and-postcode-local-health-district-and-local-government-area.csv'},
+  data: {'url': 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
   transform: [
     {
       filter: {field: 'lhd_2010_name', equal: 'South Western Sydney'}
