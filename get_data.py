@@ -29,7 +29,13 @@ def main():
     cases_df['likely_source_of_infection'] = (
         cases_df['likely_source_of_infection']
         .replace(infection_source_mapping))
-    cases_df.to_csv('covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv', index=False)
+
+    cases_df['lga_name19'] = cases_df['lga_name19'].str.replace(
+        r' *\(.*\) *', '', regex=True)
+
+    cases_df.to_csv(
+        'covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv',
+        index=False)
 
     git_commands = [
         f'git add {" ".join(filenames)}'.split(), # assumes no spaces in filenames
