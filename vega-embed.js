@@ -2,24 +2,24 @@
 
 var sws_phn_config = {
   "group": {"fill": "#e5e5e5"},
-  "arc": {"fill": "#000000"},
-  "area": {"fill": "#000000"},
-  "line": {"stroke": "#000000"},
-  "path": {"stroke": "#000000"},
-  "rect": {"fill": "#000000"},
-  "shape": {"stroke": "#000000"},
-  "symbol": {"fill": "#000000"},
+  "arc": {"fill": "#2b2c39"},
+  "area": {"fill": "#2b2c39"},
+  "line": {"stroke": "#2b2c39"},
+  "path": {"stroke": "#2b2c39"},
+  "rect": {"fill": "#2b2c39"},
+  "shape": {"stroke": "#2b2c39"},
+  "symbol": {"fill": "#2b2c39"},
   "range": {
     "category": [
       "#2283a2",
       "#003e6a",
       "#a1ce5e",
-      "#2b2c39",
-      "#EF8762",
+      //"#2b2c39",
       "#FDBE13",
+      "#EF8762",
       "#F2727E",
       "#EA3F3F",
-      "#26213C",
+      //"#26213C",
       "#25A9E0",
       "#F97A08",
       "#41BFB8",
@@ -43,7 +43,7 @@ var daily_and_cumulative_cases_spec = {
       filter: {
         and: [
           {field: 'lhd_2010_name', equal: 'South Western Sydney'},
-          {not: {field: 'lga_name19', equal: 'Penrith (C)'}}
+          {not: {field: 'lga_name19', equal: 'Penrith'}}
         ]
       }
     },
@@ -100,7 +100,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
           filter: {
             and: [
               {field: 'lhd_2010_name', equal: 'South Western Sydney'},
-              {not: {field: 'lga_name19', equal: 'Penrith (C)'}}
+              {not: {field: 'lga_name19', equal: 'Penrith'}}
             ]
           }
         }
@@ -126,7 +126,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
           filter: {
             and: [
               {field: 'lhd_2010_name', equal: 'South Western Sydney'},
-              {not: {field: 'lga_name19', equal: 'Penrith (C)'}}
+              {not: {field: 'lga_name19', equal: 'Penrith'}}
             ]
           }
         }
