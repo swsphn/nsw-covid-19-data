@@ -58,16 +58,6 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
   //autosize: 'fit',
   width: 'container',
   height: 'container',
-  datasets: {
-    infection_source_name_mapping: {
-      values: [
-        {source_name: 'Interstate', mapped_name: 'Interstate'},
-        {source_name: 'Locally acquired - contact of a confirmed case and/or in a known cluster', mapped_name: 'Local contact'},
-        {source_name: 'Locally acquired - source not identified', mapped_name: 'Local unknown'},
-        {source_name: 'Overseas', mapped_name: 'Overseas'}
-      ]
-    }
-  },
   layer: [
     {
       data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
@@ -78,14 +68,6 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
               {field: 'lhd_2010_name', equal: 'South Western Sydney'},
               {not: {field: 'lga_name19', equal: 'Penrith (C)'}}
             ]
-          }
-        },
-        {
-          lookup: 'likely_source_of_infection',
-          from: {
-            data: {name: 'infection_source_name_mapping'},
-            key: 'source_name',
-            fields: ['mapped_name']
           }
         }
       ],
@@ -113,21 +95,17 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
               {not: {field: 'lga_name19', equal: 'Penrith (C)'}}
             ]
           }
-        },
-        {
-          window: [{op: 'sum', field: 'test_count', as: 'cumulative_count'}],
-          frame: [null,0]
         }
       ],
       mark: 'line',
       encoding: {
         x: {timeUnit: 'yearmonthdate', field: 'test_date', title: 'Date', type: 'temporal'},
         y: {
-          aggregate: 'max',
-          field: 'cumulative_count',
+          aggregate: 'sum',
+          field: 'test_count',
           type: 'quantitative',
           axis: {
-            title: 'Cumulative Tests'
+            title: 'Daily Tests'
           }
         }
       }
