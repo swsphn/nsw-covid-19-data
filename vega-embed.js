@@ -1,13 +1,18 @@
 // Assign the specification to a local variable.
 var daily_and_cumulative_cases_spec = {
   $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
-  autosize: 'fit',
+  //autosize: 'fit',
   width: 'container',
   height: 'container',
   data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
   transform: [
     {
-      filter: {field: 'lhd_2010_name', equal: 'South Western Sydney'}
+      filter: {
+        and: [
+          {field: 'lhd_2010_name', equal: 'South Western Sydney'},
+          {not: {field: 'lga_name19', equal: 'Penrith (C)'}}
+        ]
+      }
     },
     {
       window: [{op: 'count', field: 'notification_date', as: 'cumulative_count'}],
@@ -24,10 +29,10 @@ var daily_and_cumulative_cases_spec = {
           field: 'lga_name19',
           type: 'quantitative',
           axis: {
-            title: 'Daily Cases'
+            title: 'Daily Cases by SWS LGA'
           }
         },
-        color: {field: 'lga_name19', type: 'nominal'}
+        color: {field: 'lga_name19', type: 'nominal', legend: {title: 'LGA'}}
       },
     },
     {
@@ -39,7 +44,7 @@ var daily_and_cumulative_cases_spec = {
           field: 'cumulative_count',
           type: 'quantitative',
           axis: {
-            title: 'Cumulative Daily Cases'
+            title: 'Cumulative Cases'
           }
         }
       }
@@ -50,7 +55,7 @@ var daily_and_cumulative_cases_spec = {
 
 var daily_cases_by_transmission_and_daily_tests_spec = {
   $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
-  autosize: 'fit',
+  //autosize: 'fit',
   width: 'container',
   height: 'container',
   layer: [
@@ -58,7 +63,12 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
       data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
       transform: [
         {
-          filter: {field: 'lhd_2010_name', equal: 'South Western Sydney'}
+          filter: {
+            and: [
+              {field: 'lhd_2010_name', equal: 'South Western Sydney'},
+              {not: {field: 'lga_name19', equal: 'Penrith (C)'}}
+            ]
+          }
         }
       ],
       mark: 'bar',
@@ -69,16 +79,43 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
           field: 'likely_source_of_infection',
           type: 'quantitative',
           axis: {
-            title: 'Daily Cases'
+            title: 'Daily Cases by Infection Source'
           }
         },
-        color: {field: 'likely_source_of_infection', type: 'nominal'}
+        color: {field: 'likely_source_of_infection', type: 'nominal', legend: {title: 'Infection Source'}}
       }
-    }//,
-    //{
-      //data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-tests-by-date-and-postcode-local-health-district-and-local-government-area-aggregated.csv'},
-    //}
-  ]
+    },
+    {
+      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-tests-by-date-and-postcode-local-health-district-and-local-government-area-aggregated.csv'},
+      transform: [
+        {
+          filter: {
+            and: [
+              {field: 'lhd_2010_name', equal: 'South Western Sydney'},
+              {not: {field: 'lga_name19', equal: 'Penrith (C)'}}
+            ]
+          }
+        },
+        {
+          window: [{op: 'sum', field: 'test_count', as: 'cumulative_count'}],
+          frame: [null,0]
+        }
+      ],
+      mark: 'line',
+      encoding: {
+        x: {timeUnit: 'yearmonthdate', field: 'test_date', title: 'Date', type: 'temporal'},
+        y: {
+          aggregate: 'max',
+          field: 'cumulative_count',
+          type: 'quantitative',
+          axis: {
+            title: 'Cumulative Tests'
+          }
+        }
+      }
+    }
+  ],
+  resolve: {scale: {y: 'independent'}}
 };
 
 // Embed the visualization in the container with id `vis`
