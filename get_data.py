@@ -4,6 +4,7 @@ import urllib.request
 import subprocess
 from pathlib import Path
 import os
+import pandas as pd
 
 def main():
     cases_data_url = 'https://data.nsw.gov.au/data/dataset/97ea2424-abaf-4f3e-a9f2-b5c883f42b6a/resource/2776dbb8-f807-4fb2-b1ed-184a6fc2c8aa/download/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'
@@ -16,6 +17,19 @@ def main():
 
     for url, filename in url_filename_pairs:
         urllib.request.urlretrieve(url, filename)
+
+    cases_df = pd.read_csv('covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv',
+                           dtype=str)
+
+    infection_source_mapping = {
+        'Locally acquired - contact of a confirmed case and/or in a known cluster': 'Local contact',
+        'Locally acquired - source not identified': 'Local unknown'
+    }
+
+    cases_df['likely_source_of_infection'] = (
+        cases_df['likely_source_of_infection']
+        .replace(infection_source_mapping))
+    cases_df.to_csv('covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv', index=False)
 
     git_commands = [
         f'git add {" ".join(filenames)}'.split(), # assumes no spaces in filenames
