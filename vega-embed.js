@@ -212,7 +212,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
     },
     // minichart for x-axis domain selection
     {
-      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
+      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-tests-by-date-and-postcode-local-health-district-and-local-government-area-aggregated.csv'},
       transform: [
         {
           filter: {
@@ -231,16 +231,20 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
         brush: {type: 'interval', encodings: ['x']}
       },
       encoding: {
-        x: {timeUnit: 'yearmonthdate', field: 'notification_date', title: 'Date', type: 'temporal'},
+        x: {
+          timeUnit: 'yearmonthdate',
+          field: 'test_date',
+          title: 'Date',
+          type: 'temporal',
+        },
         y: {
-          aggregate: 'count',
-          field: 'likely_source_of_infection',
+          aggregate: 'sum',
+          field: 'test_count',
           type: 'quantitative',
           axis: {
             title: null
           }
-        },
-        //color: {field: 'likely_source_of_infection', type: 'nominal', legend: {title: 'Infection Source', direction: 'horizontal', orient: 'top'}}
+        }
       }
     },
 
