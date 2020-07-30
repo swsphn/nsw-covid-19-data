@@ -37,6 +37,7 @@ var daily_and_cumulative_cases_spec = {
   width: 'container',
   height: 'container',
   config: sws_phn_config,
+  title: 'South Western Sydney Cumulative and Daily COVID-19 Cases by LGA',
   data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
   transform: [
     {
@@ -93,6 +94,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
   width: 'container',
   height: 'container',
   config: sws_phn_config,
+  title: 'South Western Sydney Daily Tests and Cases by Infection Source',
   layer: [
     {
       selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
