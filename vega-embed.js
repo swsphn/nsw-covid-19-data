@@ -31,12 +31,19 @@ var sws_phn_config = {
   }
 }
 
+var width = 'container';
+var height = 'container';
+var autosize = {
+  type: 'fit-x',
+  contains: 'padding'
+};
 var daily_and_cumulative_cases_spec = {
   $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
   //autosize: 'fit',
-  width: 'container',
-  height: 'container',
+  //width: 'container',
+  //height: 'container',
   config: sws_phn_config,
+  title: 'South Western Sydney Cumulative and Daily COVID-19 Cases by LGA',
   data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
   transform: [
     {
@@ -52,46 +59,86 @@ var daily_and_cumulative_cases_spec = {
       frame: [null,0]
     }
   ],
-  layer: [
+  vconcat: [
     {
-      mark: 'bar',
+      autosize: autosize,
+      width: width,//'container',
+      height: height,
+      layer: [
+        {
+          mark: 'bar',
+          encoding: {
+            x: {
+              timeUnit: 'yearmonthdate',
+              field: 'notification_date',
+              type: 'temporal',
+              scale: {domain: {selection: 'brush'}}
+            },
+            y: {
+              aggregate: 'count',
+              field: 'lga_name19',
+              type: 'quantitative',
+              axis: {
+                title: 'Daily Cases by SWS LGA'
+              }
+            },
+            color: {field: 'lga_name19', type: 'nominal', legend: {title: null, direction: 'horizontal', orient: 'top'}}
+          }
+        },
+        {
+          mark: 'line',
+          encoding: {
+            x: {
+              timeUnit: 'yearmonthdate',
+              field: 'notification_date',
+              title: null,
+              type: 'temporal',
+              scale: {domain: {selection: 'brush'}}
+            },
+            y: {
+              aggregate: 'max',
+              field: 'cumulative_count',
+              type: 'quantitative',
+              axis: {
+                title: 'Cumulative Cases'
+              }
+            }
+          }
+        }
+      ],
+      resolve: {scale: {y: 'independent'}}
+    },
+    {
+      autosize: autosize,
+      width: width,//'container',
+      height: 30,
+      mark: 'area',
+      selection: {
+        brush: {type: 'interval', encodings: ['x']}
+      },
       encoding: {
-        x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal'},
+        x: {timeUnit: 'yearmonthdate', field: 'notification_date', title: 'Date', type: 'temporal'},
         y: {
           aggregate: 'count',
           field: 'lga_name19',
           type: 'quantitative',
           axis: {
-            title: 'Daily Cases by SWS LGA'
+            title: null
           }
         },
-        color: {field: 'lga_name19', type: 'nominal', legend: {title: 'LGA'}}
+        //color: {field: 'lga_name19', type: 'nominal', legend: {title: 'LGA'}}
       },
-    },
-    {
-      mark: 'line',
-      encoding: {
-        x: {timeUnit: 'yearmonthdate', field: 'notification_date', title: 'Date', type: 'temporal'},
-        y: {
-          aggregate: 'max',
-          field: 'cumulative_count',
-          type: 'quantitative',
-          axis: {
-            title: 'Cumulative Cases'
-          }
-        }
-      }
     }
-  ],
-  resolve: {scale: {y: 'independent'}}
+  ]
 };
 
 var daily_cases_by_transmission_and_daily_tests_spec = {
   $schema: 'https://vega.github.io/schema/vega-lite/v4.json',
   //autosize: 'fit',
-  width: 'container',
-  height: 'container',
+  width: width,
+  height: width,
   config: sws_phn_config,
+  title: 'South Western Sydney Daily Tests and Cases by Infection Source',
   layer: [
     {
       data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
@@ -116,7 +163,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
             title: 'Daily Cases by Infection Source'
           }
         },
-        color: {field: 'likely_source_of_infection', type: 'nominal', legend: {title: 'Infection Source'}}
+        color: {field: 'likely_source_of_infection', type: 'nominal', legend: {title: 'Infection Source', direction: 'horizontal', orient: 'top'}}
       }
     },
     {
