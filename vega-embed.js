@@ -54,6 +54,7 @@ var daily_and_cumulative_cases_spec = {
   ],
   layer: [
     {
+      selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
       mark: 'bar',
       encoding: {
         x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal'},
@@ -94,6 +95,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
   config: sws_phn_config,
   layer: [
     {
+      selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
       data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
       transform: [
         {
