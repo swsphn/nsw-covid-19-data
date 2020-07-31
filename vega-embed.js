@@ -59,6 +59,7 @@ var daily_and_cumulative_cases_spec = {
       mark: {type: 'bar', tooltip: true},
       encoding: {
         x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: "Date"},
+        color: {field: 'lga_name19', type: 'nominal', title: "LGA"},
         y: {
           aggregate: 'count',
           field: 'lga_name19',
@@ -67,9 +68,8 @@ var daily_and_cumulative_cases_spec = {
           axis: {
             title: 'Daily Cases by SWS LGA'
           }
-        },
-        color: {field: 'lga_name19', type: 'nominal', title: "LGA"}
-      },
+        }
+      }
     },
     {
       mark: 'line',
@@ -113,6 +113,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
       mark: {type: 'bar', tooltip: true},
       encoding: {
         x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: 'Date'},
+        color: {field: 'likely_source_of_infection', type: 'nominal', title: 'Infection Source'},
         y: {
           aggregate: 'count',
           field: 'likely_source_of_infection',
@@ -121,8 +122,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
           axis: {
             title: 'Daily Cases by Infection Source'
           }
-        },
-        color: {field: 'likely_source_of_infection', type: 'nominal', title: 'Infection Source'}
+        }
       }
     },
     {
