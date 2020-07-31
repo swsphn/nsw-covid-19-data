@@ -56,18 +56,19 @@ var daily_and_cumulative_cases_spec = {
   layer: [
     {
       selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
-      mark: 'bar',
+      mark: {type: 'bar', tooltip: true},
       encoding: {
-        x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal'},
+        x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: "Date"},
         y: {
           aggregate: 'count',
           field: 'lga_name19',
           type: 'quantitative',
+          title: "Cases",
           axis: {
             title: 'Daily Cases by SWS LGA'
           }
         },
-        color: {field: 'lga_name19', type: 'nominal', legend: {title: 'LGA'}}
+        color: {field: 'lga_name19', type: 'nominal', title: "LGA"}
       },
     },
     {
@@ -109,18 +110,19 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
           }
         }
       ],
-      mark: 'bar',
+      mark: {type: 'bar', tooltip: true},
       encoding: {
-        x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal'},
+        x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: 'Date'},
         y: {
           aggregate: 'count',
           field: 'likely_source_of_infection',
           type: 'quantitative',
+          title: 'Cases',
           axis: {
             title: 'Daily Cases by Infection Source'
           }
         },
-        color: {field: 'likely_source_of_infection', type: 'nominal', legend: {title: 'Infection Source'}}
+        color: {field: 'likely_source_of_infection', type: 'nominal', title: 'Infection Source'}
       }
     },
     {
