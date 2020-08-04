@@ -59,7 +59,7 @@ var daily_and_cumulative_cases_spec = {
       mark: {type: 'bar', tooltip: true},
       encoding: {
         x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: "Date"},
-        color: {field: 'lga_name19', type: 'nominal', title: "LGA"},
+        color: {field: 'lga_name19', type: 'nominal', title: "LGA", legend: {orient: "top"},
         y: {
           aggregate: 'count',
           field: 'lga_name19',
