@@ -2,24 +2,45 @@
 
 import urllib.request
 import subprocess
-from pathlib import Path
 import os
+import sys
+from pathlib import Path
+from datetime import datetime, timedelta
 import pandas as pd
+
+def contains_future_date(series):
+    try:
+        return (series > datetime.now()).any()
+    except TypeError as err:
+        raise TypeError(f'series must have datetime compatible dtype')
 
 def main():
     cases_data_url = 'https://data.nsw.gov.au/data/dataset/97ea2424-abaf-4f3e-a9f2-b5c883f42b6a/resource/2776dbb8-f807-4fb2-b1ed-184a6fc2c8aa/download/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'
-
     tests_data_url = 'https://data.nsw.gov.au/data/dataset/60616720-3c60-4c52-b499-751f31e3b132/resource/fb95de01-ad82-4716-ab9a-e15cf2c78556/download/covid-19-tests-by-date-and-postcode-local-health-district-and-local-government-area-aggregated.csv'
 
     urls = [cases_data_url, tests_data_url]
-    filenames = [url.split('/')[-1] for url in urls]
-    url_filename_pairs = zip(urls, filenames)
+    files = [url.split('/')[-1] for url in urls]
+    url_filename_pairs = zip(urls, files)
 
     for url, filename in url_filename_pairs:
         urllib.request.urlretrieve(url, filename)
 
-    cases_df = pd.read_csv('covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv',
-                           dtype=str)
+    date_columns = {'case': 'notification_date',
+                    'test': 'test_date'}
+    names = date_columns.keys()
+    name_file_pairs = zip(names, files)
+
+    dfs = {}
+    for name, file in name_file_pairs:
+        df = pd.read_csv(file, dtype=str)
+        date_column = date_columns[name]
+        dates = pd.to_datetime(df[date_column])
+        if contains_future_date(dates):
+            print(f'Data Error: {name} dates in future!')
+            sys.exit(1)
+        dfs[name] = df
+
+    cases_df = dfs['case']
 
     infection_source_mapping = {
         'Locally acquired - contact of a confirmed case and/or in a known cluster': 'Local contact',
@@ -38,7 +59,7 @@ def main():
         index=False)
 
     git_commands = [
-        f'git add {" ".join(filenames)}'.split(), # assumes no spaces in filenames
+        f'git add {" ".join(files)}'.split(), # assumes no spaces in filenames
         'git -c commit.gpgsign=false commit -m'.split() + ['Update data'],
     ]
 
