@@ -15,6 +15,7 @@ def contains_future_date(series):
         raise TypeError(f'series must have datetime compatible dtype')
 
 def main():
+    # Download data
     cases_data_url = 'https://data.nsw.gov.au/data/dataset/97ea2424-abaf-4f3e-a9f2-b5c883f42b6a/resource/2776dbb8-f807-4fb2-b1ed-184a6fc2c8aa/download/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'
     tests_data_url = 'https://data.nsw.gov.au/data/dataset/60616720-3c60-4c52-b499-751f31e3b132/resource/fb95de01-ad82-4716-ab9a-e15cf2c78556/download/covid-19-tests-by-date-and-postcode-local-health-district-and-local-government-area-aggregated.csv'
 
@@ -25,6 +26,7 @@ def main():
     for url, filename in url_filename_pairs:
         urllib.request.urlretrieve(url, filename)
 
+    # Test for invalid dates
     date_columns = {'case': 'notification_date',
                     'test': 'test_date'}
     names = date_columns.keys()
@@ -40,6 +42,7 @@ def main():
             sys.exit(1)
         dfs[name] = df
 
+    # Process cases file
     cases_df = dfs['case']
 
     infection_source_mapping = {
@@ -58,6 +61,7 @@ def main():
         'covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv',
         index=False)
 
+    # Push latest data to GitHub
     git_commands = [
         f'git add {" ".join(files)}'.split(), # assumes no spaces in filenames
         'git -c commit.gpgsign=false commit -m'.split() + ['Update data'],
