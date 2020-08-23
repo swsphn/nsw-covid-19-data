@@ -1689,7 +1689,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-03-28,2228,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-03-28,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-03-28,2464,Overseas,X810,Northern NSW,11730,Clarence Valley
-2020-03-28,2251,Overseas,X770,Central Coast,11650,Central Coast
+2020-03-28,2068,Overseas,X760,Northern Sydney,18250,Willoughby
 2020-03-28,2560,Overseas,X710,South Western Sydney,11500,Campbelltown
 2020-03-28,2148,Local contact,X740,Western Sydney,10750,Blacktown
 2020-03-28,2097,Overseas,X760,Northern Sydney,15990,Northern Beaches
@@ -1764,7 +1764,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-03-28,2200,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-03-28,2575,Interstate,X710,South Western Sydney,18350,Wingecarribee
 2020-03-28,2259,Overseas,X770,Central Coast,11650,Central Coast
-2020-03-28,2068,Overseas,X760,Northern Sydney,18250,Willoughby
+2020-03-28,2251,Overseas,X770,Central Coast,11650,Central Coast
 2020-03-28,2430,Overseas,X800,Hunter New England,15240,Mid-Coast
 2020-03-28,2450,Overseas,X820,Mid North Coast,11800,Coffs Harbour
 2020-03-28,2145,Overseas,X740,Western Sydney,12380,Cumberland
@@ -2015,8 +2015,8 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-03-30,2088,Overseas,X760,Northern Sydney,15350,Mosman
 2020-03-30,2500,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-03-30,2650,Overseas,X840,Murrumbidgee,17750,Wagga Wagga
-2020-03-30,2763,Overseas,X740,Western Sydney,10750,Blacktown
 2020-03-30,2213,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-03-30,2763,Overseas,X740,Western Sydney,10750,Blacktown
 2020-03-30,2444,Overseas,X820,Mid North Coast,16380,Port Macquarie-Hastings
 2020-03-30,2749,Overseas,X750,Nepean Blue Mountains,16350,Penrith
 2020-03-31,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
@@ -2450,7 +2450,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-03,2148,Local contact,X740,Western Sydney,10750,Blacktown
 2020-04-03,2035,Local contact,X720,South Eastern Sydney,16550,Randwick
 2020-04-03,2750,Local contact,X750,Nepean Blue Mountains,16350,Penrith
-2020-04-03,2760,Overseas,X750,Nepean Blue Mountains,16350,Penrith
+2020-04-03,2620,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
 2020-04-03,2111,Local contact,X760,Northern Sydney,14100,Hunters Hill
 2020-04-03,2122,Local contact,X760,Northern Sydney,16700,Ryde
 2020-04-03,2233,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
@@ -2458,10 +2458,9 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-03,2152,Local contact,X740,Western Sydney,16260,Parramatta
 2020-04-03,2541,Local contact,X730,Illawarra Shoalhaven,16950,Shoalhaven
 2020-04-03,2800,Overseas,X850,Western NSW,16150,Orange
-2020-04-03,2620,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
+2020-04-03,2760,Overseas,X750,Nepean Blue Mountains,16350,Penrith
 2020-04-03,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
 2020-04-03,2050,Local unknown,X700,Sydney,17200,Sydney
-2020-04-03,2088,Overseas,X760,Northern Sydney,15350,Mosman
 2020-04-03,2515,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-04-03,2073,Local contact,X760,Northern Sydney,14500,Ku-ring-gai
 2020-04-03,2284,Overseas,X800,Hunter New England,14650,Lake Macquarie
@@ -2470,21 +2469,22 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-03,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-04-03,2287,Overseas,X800,Hunter New England,15900,Newcastle
 2020-04-03,2176,Local unknown,X710,South Western Sydney,12850,Fairfield
+2020-04-03,2088,Overseas,X760,Northern Sydney,15350,Mosman
 2020-04-03,2567,Local contact,X710,South Western Sydney,11450,Camden
 2020-04-03,2758,Overseas,X750,Nepean Blue Mountains,13800,Hawkesbury
+2020-04-04,2219,Local contact,X720,South Eastern Sydney,10500,Bayside
 2020-04-04,2218,Local contact,X720,South Eastern Sydney,12930,Georges River
 2020-04-04,2761,Local unknown,X740,Western Sydney,10750,Blacktown
 2020-04-04,2485,Overseas,X810,Northern NSW,17550,Tweed
-2020-04-04,2219,Local contact,X720,South Eastern Sydney,10500,Bayside
-2020-04-04,2750,Local contact,X750,Nepean Blue Mountains,16350,Penrith
-2020-04-04,2219,Interstate,X720,South Eastern Sydney,10500,Bayside
+2020-04-04,2018,Local contact,X700,Sydney,17200,Sydney
 2020-04-04,2750,Local unknown,X750,Nepean Blue Mountains,16350,Penrith
+2020-04-04,2219,Interstate,X720,South Eastern Sydney,10500,Bayside
 2020-04-04,2205,Local unknown,X720,South Eastern Sydney,10500,Bayside
 2020-04-04,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-04-04,2066,Local contact,X760,Northern Sydney,14700,Lane Cove
 2020-04-04,2097,Local contact,X760,Northern Sydney,15990,Northern Beaches
 2020-04-04,2011,Overseas,X720,South Eastern Sydney,17200,Sydney
-2020-04-04,2018,Local contact,X700,Sydney,17200,Sydney
+2020-04-04,2750,Local contact,X750,Nepean Blue Mountains,16350,Penrith
 2020-04-04,2232,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-04-04,2155,Local unknown,X740,Western Sydney,17420,The Hills Shire
 2020-04-04,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
@@ -2553,8 +2553,8 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-05,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-04-05,2205,Interstate,X720,South Eastern Sydney,10500,Bayside
 2020-04-05,2025,Overseas,X720,South Eastern Sydney,18500,Woollahra
-2020-04-05,2527,Overseas,X730,Illawarra Shoalhaven,16900,Shellharbour
 2020-04-05,2211,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-04-05,2527,Overseas,X730,Illawarra Shoalhaven,16900,Shellharbour
 2020-04-05,2069,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
 2020-04-05,,Overseas,,,,
 2020-04-05,2452,Overseas,X820,Mid North Coast,11800,Coffs Harbour
@@ -2692,7 +2692,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-07,2074,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
 2020-04-07,2026,Local unknown,X720,South Eastern Sydney,18050,Waverley
 2020-04-07,2031,Local contact,X720,South Eastern Sydney,16550,Randwick
-2020-04-08,2072,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
+2020-04-08,2086,Local unknown,X760,Northern Sydney,15990,Northern Beaches
 2020-04-08,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
 2020-04-08,2062,Interstate,X760,Northern Sydney,15950,North Sydney
 2020-04-08,2479,Overseas,X810,Northern NSW,11350,Byron
@@ -2727,7 +2727,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-08,2138,Local unknown,X700,Sydney,11520,Canada Bay
 2020-04-08,2210,Local contact,X720,South Eastern Sydney,12930,Georges River
 2020-04-08,2168,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-04-08,2086,Local unknown,X760,Northern Sydney,15990,Northern Beaches
+2020-04-08,2072,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
 2020-04-08,2077,Overseas,X760,Northern Sydney,14000,Hornsby
 2020-04-08,2643,Overseas,X840,Murrumbidgee,12870,Federation
 2020-04-08,,Local contact,,,,
@@ -3227,557 +3227,558 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-07-04,,Overseas,,,,
 2020-07-04,2039,Overseas,X700,Sydney,14170,Inner West
 2020-07-04,2761,Overseas,X740,Western Sydney,10750,Blacktown
-2020-07-05,2192,Overseas,X700,Sydney,11570,Canterbury-Bankstown
-2020-07-05,,Overseas,,,,
-2020-07-05,,Overseas,,,,
-2020-07-05,2155,Overseas,X740,Western Sydney,17420,The Hills Shire
 2020-07-05,,Overseas,,,,
 2020-07-05,,Overseas,,,,
 2020-07-05,2144,Overseas,X740,Western Sydney,12380,Cumberland
 2020-07-05,,Overseas,,,,
+2020-07-05,2155,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-07-05,,Overseas,,,,
+2020-07-05,,Overseas,,,,
+2020-07-05,2192,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-06,,Overseas,,,,
+2020-07-06,2196,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-06,2196,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-06,,Overseas,,,,
+2020-07-06,,Overseas,,,,
+2020-07-06,,Overseas,,,,
 2020-07-06,,Overseas,,,,
 2020-07-06,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-06,,Overseas,,,,
-2020-07-06,,Overseas,,,,
-2020-07-06,2196,Overseas,X700,Sydney,11570,Canterbury-Bankstown
 2020-07-06,2641,Local contact,X921,Network with Vic,10050,Albury
-2020-07-06,,Overseas,,,,
-2020-07-06,2196,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-06,2150,Overseas,X740,Western Sydney,16260,Parramatta
 2020-07-06,2641,Interstate,X921,Network with Vic,10050,Albury
 2020-07-06,2641,Local contact,X921,Network with Vic,10050,Albury
-2020-07-06,,Overseas,,,,
-2020-07-06,,Overseas,,,,
-2020-07-06,2150,Overseas,X740,Western Sydney,16260,Parramatta
 2020-07-06,2291,Overseas,X800,Hunter New England,15900,Newcastle
-2020-07-07,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-07-07,,Overseas,,,,
-2020-07-07,,Overseas,,,,
 2020-07-07,,Overseas,,,,
 2020-07-07,2161,Overseas,X740,Western Sydney,12380,Cumberland
 2020-07-07,,Overseas,,,,
+2020-07-07,,Overseas,,,,
+2020-07-07,,Overseas,,,,
+2020-07-07,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-07-08,,Overseas,,,,
-2020-07-08,2167,Overseas,X710,South Western Sydney,11500,Campbelltown
-2020-07-08,2174,Overseas,X710,South Western Sydney,14900,Liverpool
-2020-07-08,2540,Overseas,X730,Illawarra Shoalhaven,16950,Shoalhaven
-2020-07-08,2148,Overseas,X740,Western Sydney,10750,Blacktown
 2020-07-08,,Overseas,,,,
+2020-07-08,2745,Overseas,X750,Nepean Blue Mountains,16350,Penrith
 2020-07-08,2160,Overseas,X740,Western Sydney,12380,Cumberland
 2020-07-08,,Overseas,,,,
 2020-07-08,,Overseas,,,,
 2020-07-08,,Overseas,,,,
-2020-07-08,2745,Overseas,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-08,2174,Overseas,X710,South Western Sydney,14900,Liverpool
 2020-07-08,,Overseas,,,,
+2020-07-08,2540,Overseas,X730,Illawarra Shoalhaven,16950,Shoalhaven
+2020-07-08,2167,Overseas,X710,South Western Sydney,11500,Campbelltown
 2020-07-08,,Overseas,,,,
-2020-07-09,2750,Overseas,X750,Nepean Blue Mountains,16350,Penrith
-2020-07-09,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
-2020-07-09,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
-2020-07-09,,Overseas,,,,
+2020-07-08,2148,Overseas,X740,Western Sydney,10750,Blacktown
 2020-07-09,2140,Overseas,X700,Sydney,17100,Strathfield
-2020-07-09,,Overseas,,,,
+2020-07-09,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
+2020-07-09,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
 2020-07-09,2750,Overseas,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-09,2140,Overseas,X700,Sydney,17100,Strathfield
 2020-07-09,2070,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
-2020-07-09,2140,Overseas,X700,Sydney,17100,Strathfield
+2020-07-09,,Overseas,,,,
+2020-07-09,2750,Overseas,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-09,,Overseas,,,,
+2020-07-10,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
+2020-07-10,,Overseas,,,,
+2020-07-10,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
 2020-07-10,,Overseas,,,,
 2020-07-10,2144,Overseas,X740,Western Sydney,12380,Cumberland
+2020-07-10,,Overseas,,,,
+2020-07-10,,Overseas,,,,
 2020-07-10,2219,Interstate,X720,South Eastern Sydney,10500,Bayside
-2020-07-10,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
-2020-07-10,,Overseas,,,,
-2020-07-10,,Overseas,,,,
-2020-07-10,2780,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
-2020-07-10,,Overseas,,,,
 2020-07-11,2170,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-11,2720,Overseas,X840,Murrumbidgee,17080,Snowy Valleys
 2020-07-12,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-12,2166,Interstate,X710,South Western Sydney,12850,Fairfield
-2020-07-12,2087,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-07-12,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-12,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-12,2208,Interstate,X700,Sydney,11570,Canterbury-Bankstown
 2020-07-12,2170,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-12,2171,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-12,2217,Local contact,X720,South Eastern Sydney,10500,Bayside
-2020-07-12,2170,Overseas,X710,South Western Sydney,14900,Liverpool
+2020-07-12,,Overseas,,,,
+2020-07-12,2017,Overseas,X700,Sydney,17200,Sydney
+2020-07-12,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-12,,Overseas,,,,
 2020-07-12,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
 2020-07-12,,Local contact,,,,
-2020-07-12,,Overseas,,,,
-2020-07-12,2208,Interstate,X700,Sydney,11570,Canterbury-Bankstown
-2020-07-12,2017,Overseas,X700,Sydney,17200,Sydney
-2020-07-12,,Overseas,,,,
-2020-07-13,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-13,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-13,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-12,2170,Overseas,X710,South Western Sydney,14900,Liverpool
+2020-07-12,2087,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-07-12,2166,Interstate,X710,South Western Sydney,12850,Fairfield
+2020-07-12,2171,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-13,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
-2020-07-13,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
-2020-07-13,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-07-13,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-07-13,2171,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-13,2117,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-13,,Interstate,,,,
-2020-07-13,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
-2020-07-13,,Overseas,,,,
-2020-07-13,2290,Local contact,X800,Hunter New England,14650,Lake Macquarie
-2020-07-13,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-13,2529,Overseas,X730,Illawarra Shoalhaven,16900,Shellharbour
-2020-07-13,2102,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-07-13,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-14,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-14,2762,Local contact,X740,Western Sydney,10750,Blacktown
+2020-07-13,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-07-13,2102,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-07-13,,Overseas,,,,
+2020-07-13,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
+2020-07-13,2290,Local contact,X800,Hunter New England,14650,Lake Macquarie
+2020-07-13,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
+2020-07-13,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-13,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-13,,Interstate,,,,
+2020-07-13,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-13,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-13,2529,Overseas,X730,Illawarra Shoalhaven,16900,Shellharbour
+2020-07-13,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-13,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-07-14,2112,Overseas,X760,Northern Sydney,16700,Ryde
+2020-07-14,2168,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-14,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-07-14,2113,Overseas,X760,Northern Sydney,16700,Ryde
 2020-07-14,,Overseas,,,,
 2020-07-14,2210,Local contact,X720,South Eastern Sydney,12930,Georges River
 2020-07-14,2575,Local contact,X710,South Western Sydney,18350,Wingecarribee
-2020-07-14,2112,Overseas,X760,Northern Sydney,16700,Ryde
-2020-07-14,2168,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-15,2170,Local unknown,X710,South Western Sydney,14900,Liverpool
-2020-07-15,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-15,,Overseas,,,,
-2020-07-15,,Overseas,,,,
+2020-07-14,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-14,2762,Local contact,X740,Western Sydney,10750,Blacktown
 2020-07-15,2540,Overseas,X730,Illawarra Shoalhaven,16950,Shoalhaven
+2020-07-15,2171,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-15,2762,Local contact,X740,Western Sydney,10750,Blacktown
+2020-07-15,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-15,2170,Local unknown,X710,South Western Sydney,14900,Liverpool
+2020-07-15,2167,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-07-15,2480,Interstate,X810,Northern NSW,14850,Lismore
 2020-07-15,2146,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-15,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-15,2167,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-07-15,,Overseas,,,,
+2020-07-15,,Overseas,,,,
 2020-07-16,2218,Local contact,X720,South Eastern Sydney,12930,Georges River
+2020-07-16,2663,Overseas,X840,Murrumbidgee,14300,Junee
+2020-07-16,2207,Overseas,X720,South Eastern Sydney,10500,Bayside
+2020-07-16,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-07-16,2557,Local contact,X710,South Western Sydney,11450,Camden
+2020-07-16,2290,Local contact,X800,Hunter New England,14650,Lake Macquarie
+2020-07-16,2745,Local unknown,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-16,2192,Local contact,X700,Sydney,11570,Canterbury-Bankstown
 2020-07-16,2192,Local contact,X700,Sydney,11570,Canterbury-Bankstown
 2020-07-16,2164,Local unknown,X710,South Western Sydney,12850,Fairfield
-2020-07-16,2663,Overseas,X840,Murrumbidgee,14300,Junee
-2020-07-16,2557,Local contact,X710,South Western Sydney,11450,Camden
-2020-07-16,2192,Local contact,X700,Sydney,11570,Canterbury-Bankstown
-2020-07-16,2745,Local unknown,X750,Nepean Blue Mountains,16350,Penrith
-2020-07-16,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-07-16,2207,Overseas,X720,South Eastern Sydney,10500,Bayside
-2020-07-16,2290,Local contact,X800,Hunter New England,14650,Lake Macquarie
-2020-07-17,2000,Overseas,X720,South Eastern Sydney,17200,Sydney
+2020-07-17,,Overseas,,,,
 2020-07-17,2229,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-07-17,,Overseas,,,,
-2020-07-17,,Overseas,,,,
-2020-07-17,2567,Local unknown,X710,South Western Sydney,11450,Camden
-2020-07-17,2528,Local contact,X730,Illawarra Shoalhaven,16900,Shellharbour
 2020-07-17,2210,Local contact,X720,South Eastern Sydney,12930,Georges River
-2020-07-17,2212,Local unknown,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-17,2000,Overseas,X720,South Eastern Sydney,17200,Sydney
 2020-07-17,,Overseas,,,,
+2020-07-17,2528,Local contact,X730,Illawarra Shoalhaven,16900,Shellharbour
+2020-07-17,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-07-17,2212,Local unknown,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-17,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-17,2567,Local unknown,X710,South Western Sydney,11450,Camden
 2020-07-17,2170,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-17,,Overseas,,,,
-2020-07-17,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-07-17,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-18,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-18,2165,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-18,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-18,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-18,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-18,2192,Local contact,X700,Sydney,11570,Canterbury-Bankstown
-2020-07-18,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-18,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-18,,Overseas,,,,
+2020-07-18,2165,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-18,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-18,2148,Local unknown,X740,Western Sydney,10750,Blacktown
-2020-07-18,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-18,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-18,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-18,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-18,2759,Local contact,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-18,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-18,2192,Local contact,X700,Sydney,11570,Canterbury-Bankstown
-2020-07-18,2161,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-18,2192,Local contact,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-18,,Overseas,,,,
 2020-07-18,,Overseas,,,,
 2020-07-18,2296,Overseas,X800,Hunter New England,15900,Newcastle
-2020-07-18,,Overseas,,,,
-2020-07-18,,Overseas,,,,
-2020-07-19,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
+2020-07-18,2759,Local contact,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-18,2161,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-18,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-19,,Overseas,,,,
-2020-07-19,2233,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-07-19,2232,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-07-19,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
-2020-07-19,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
-2020-07-19,2207,Local contact,X720,South Eastern Sydney,10500,Bayside
 2020-07-19,2229,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-07-19,2153,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-07-19,,Overseas,,,,
-2020-07-19,2747,Overseas,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-19,2232,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-07-19,2233,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-07-19,2207,Local contact,X720,South Eastern Sydney,10500,Bayside
+2020-07-19,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
+2020-07-19,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
 2020-07-19,2150,Local contact,X740,Western Sydney,16260,Parramatta
 2020-07-19,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-19,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
-2020-07-19,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-19,2021,Interstate,X720,South Eastern Sydney,18500,Woollahra
-2020-07-19,2177,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-19,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
+2020-07-19,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
 2020-07-19,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-19,2148,Local contact,X740,Western Sydney,10750,Blacktown
+2020-07-19,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-19,2021,Interstate,X720,South Eastern Sydney,18500,Woollahra
+2020-07-19,2747,Overseas,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-19,2153,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-07-19,2177,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-19,2153,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-07-20,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-20,2164,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-20,2155,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-07-20,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-20,2170,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-20,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-20,2155,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-07-20,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-20,,Overseas,,,,
 2020-07-20,2161,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-20,2164,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-20,2148,Local contact,X740,Western Sydney,10750,Blacktown
-2020-07-20,2118,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-20,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-20,2148,Local contact,X740,Western Sydney,10750,Blacktown
-2020-07-20,2777,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
 2020-07-20,2153,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-07-21,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-20,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-20,2777,Local contact,X750,Nepean Blue Mountains,10900,Blue Mountains
+2020-07-20,2148,Local contact,X740,Western Sydney,10750,Blacktown
+2020-07-20,,Overseas,,,,
+2020-07-20,2148,Local contact,X740,Western Sydney,10750,Blacktown
+2020-07-20,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-20,2118,Local contact,X740,Western Sydney,16260,Parramatta
 2020-07-21,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-21,2168,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-21,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-07-21,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-21,2210,Local contact,X720,South Eastern Sydney,12930,Georges River
+2020-07-21,2166,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-21,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-21,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-21,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-21,2316,Local contact,X800,Hunter New England,16400,Port Stephens
-2020-07-21,2153,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-07-21,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-21,2166,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-21,2168,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-21,2199,Interstate,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-07-21,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-07-21,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-21,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-21,2153,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-07-21,2210,Local contact,X720,South Eastern Sydney,12930,Georges River
 2020-07-22,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-22,2170,Local unknown,X710,South Western Sydney,14900,Liverpool
+2020-07-22,2315,Local contact,X800,Hunter New England,16400,Port Stephens
+2020-07-22,2011,Overseas,X720,South Eastern Sydney,17200,Sydney
+2020-07-22,2766,Local contact,X740,Western Sydney,10750,Blacktown
 2020-07-22,2179,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-22,2315,Local contact,X800,Hunter New England,16400,Port Stephens
+2020-07-22,2113,Overseas,X760,Northern Sydney,16700,Ryde
+2020-07-22,2166,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-22,2290,Overseas,X800,Hunter New England,14650,Lake Macquarie
+2020-07-22,2229,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-07-22,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
+2020-07-22,2508,Local contact,X730,Illawarra Shoalhaven,18450,Wollongong
+2020-07-22,2170,Local unknown,X710,South Western Sydney,14900,Liverpool
 2020-07-22,2179,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-22,2526,Local contact,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-07-22,2315,Local contact,X800,Hunter New England,16400,Port Stephens
-2020-07-22,2315,Local contact,X800,Hunter New England,16400,Port Stephens
-2020-07-22,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-22,2011,Overseas,X720,South Eastern Sydney,17200,Sydney
-2020-07-22,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
-2020-07-22,2315,Local contact,X800,Hunter New England,16400,Port Stephens
-2020-07-22,2766,Local contact,X740,Western Sydney,10750,Blacktown
-2020-07-22,2229,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-07-22,2290,Overseas,X800,Hunter New England,14650,Lake Macquarie
-2020-07-22,2508,Local contact,X730,Illawarra Shoalhaven,18450,Wollongong
-2020-07-22,2113,Overseas,X760,Northern Sydney,16700,Ryde
 2020-07-23,2144,Overseas,X740,Western Sydney,12380,Cumberland
 2020-07-23,2177,Local unknown,X710,South Western Sydney,12850,Fairfield
+2020-07-23,2155,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-07-23,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-23,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-23,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-23,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-23,2155,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-07-24,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
-2020-07-24,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
-2020-07-24,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-24,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
-2020-07-24,2000,Overseas,X720,South Eastern Sydney,17200,Sydney
-2020-07-24,,Overseas,,,,
-2020-07-24,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-24,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-24,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-24,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-24,2160,Overseas,X740,Western Sydney,12380,Cumberland
-2020-07-24,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-07-24,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-24,,Overseas,,,,
+2020-07-24,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-24,2161,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-24,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-24,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-24,2000,Overseas,X720,South Eastern Sydney,17200,Sydney
+2020-07-24,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-24,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-24,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-24,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-24,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-24,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-24,,Overseas,,,,
+2020-07-24,2160,Overseas,X740,Western Sydney,12380,Cumberland
 2020-07-24,2560,Local unknown,X710,South Western Sydney,11500,Campbelltown
 2020-07-24,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-24,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-24,,Overseas,,,,
-2020-07-24,2161,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-24,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-25,2558,Overseas,X710,South Western Sydney,11500,Campbelltown
-2020-07-25,2212,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-25,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-25,2165,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-25,2170,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-25,2481,Local contact,X810,Northern NSW,11350,Byron
+2020-07-25,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-25,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-25,2481,Local contact,X810,Northern NSW,11350,Byron
+2020-07-25,2526,Local contact,X730,Illawarra Shoalhaven,18450,Wollongong
+2020-07-25,2212,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-07-25,2212,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-07-25,2171,Local unknown,X710,South Western Sydney,14900,Liverpool
-2020-07-25,2117,Overseas,X740,Western Sydney,16260,Parramatta
 2020-07-25,2212,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-07-25,2481,Local contact,X810,Northern NSW,11350,Byron
-2020-07-25,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-07-25,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-25,2165,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-25,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-25,,Overseas,,,,
-2020-07-25,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-25,2117,Overseas,X740,Western Sydney,16260,Parramatta
 2020-07-25,2558,Overseas,X710,South Western Sydney,11500,Campbelltown
-2020-07-25,2526,Local contact,X730,Illawarra Shoalhaven,18450,Wollongong
+2020-07-25,2558,Overseas,X710,South Western Sydney,11500,Campbelltown
+2020-07-25,,Overseas,,,,
 2020-07-25,2150,Local contact,X740,Western Sydney,16260,Parramatta
 2020-07-25,,Overseas,,,,
 2020-07-25,,Overseas,,,,
 2020-07-26,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-26,2042,Local contact,X700,Sydney,17200,Sydney
+2020-07-26,,Overseas,,,,
 2020-07-26,2048,Overseas,X700,Sydney,14170,Inner West
-2020-07-26,,Overseas,,,,
-2020-07-26,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-26,2148,Local contact,X740,Western Sydney,10750,Blacktown
-2020-07-26,,Overseas,,,,
 2020-07-26,2199,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-26,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-26,,Overseas,,,,
+2020-07-26,2148,Local contact,X740,Western Sydney,10750,Blacktown
 2020-07-27,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-27,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-07-27,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-07-27,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-27,2150,Local contact,X740,Western Sydney,16260,Parramatta
 2020-07-27,2315,Local contact,X800,Hunter New England,16400,Port Stephens
 2020-07-27,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-27,2760,Local contact,X750,Nepean Blue Mountains,16350,Penrith
 2020-07-27,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-27,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
-2020-07-27,,Overseas,,,,
-2020-07-27,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
+2020-07-27,2150,Local contact,X740,Western Sydney,16260,Parramatta
 2020-07-27,2031,Interstate,X720,South Eastern Sydney,16550,Randwick
-2020-07-27,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-27,2168,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-27,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-27,,Overseas,,,,
 2020-07-27,2196,Local contact,X700,Sydney,11570,Canterbury-Bankstown
+2020-07-27,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
+2020-07-27,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-27,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
+2020-07-27,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-27,2760,Local contact,X750,Nepean Blue Mountains,16350,Penrith
+2020-07-27,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-27,2168,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-28,2564,Overseas,X710,South Western Sydney,11500,Campbelltown
 2020-07-28,2031,Local contact,X720,South Eastern Sydney,16550,Randwick
-2020-07-28,2262,Overseas,X770,Central Coast,11650,Central Coast
 2020-07-28,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-28,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
 2020-07-28,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-28,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
-2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-28,2767,Local contact,X740,Western Sydney,10750,Blacktown
-2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-28,2030,Local contact,X720,South Eastern Sydney,18050,Waverley
-2020-07-28,2315,Local contact,X800,Hunter New England,16400,Port Stephens
-2020-07-28,2125,Overseas,X740,Western Sydney,17420,The Hills Shire
-2020-07-28,2766,Local contact,X740,Western Sydney,10750,Blacktown
 2020-07-28,2204,Local contact,X700,Sydney,14170,Inner West
+2020-07-28,2030,Local contact,X720,South Eastern Sydney,18050,Waverley
+2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-28,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
+2020-07-28,2564,Overseas,X710,South Western Sydney,11500,Campbelltown
+2020-07-28,2125,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-07-28,2767,Local contact,X740,Western Sydney,10750,Blacktown
+2020-07-28,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
+2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-28,2262,Overseas,X770,Central Coast,11650,Central Coast
+2020-07-28,2330,Overseas,X800,Hunter New England,17000,Singleton
 2020-07-28,2210,Local contact,X720,South Eastern Sydney,12930,Georges River
 2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-28,2330,Overseas,X800,Hunter New England,17000,Singleton
+2020-07-28,2315,Local contact,X800,Hunter New England,16400,Port Stephens
 2020-07-28,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-28,2766,Local contact,X740,Western Sydney,10750,Blacktown
 2020-07-29,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-29,,Interstate,,,,
+2020-07-29,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-29,2037,Local contact,X700,Sydney,17200,Sydney
 2020-07-29,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-29,2168,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-29,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-29,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-29,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-29,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-29,2763,Local contact,X740,Western Sydney,10750,Blacktown
-2020-07-29,2177,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-07-29,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
-2020-07-29,2096,Local contact,X760,Northern Sydney,15990,Northern Beaches
-2020-07-29,2315,Local contact,X800,Hunter New England,16400,Port Stephens
+2020-07-29,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-07-29,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-30,2037,Overseas,X700,Sydney,17200,Sydney
-2020-07-30,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-29,2315,Local contact,X800,Hunter New England,16400,Port Stephens
+2020-07-29,,Interstate,,,,
+2020-07-29,2763,Local contact,X740,Western Sydney,10750,Blacktown
+2020-07-29,2168,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-29,2177,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-29,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-29,2096,Local contact,X760,Northern Sydney,15990,Northern Beaches
 2020-07-30,2800,Local contact,X850,Western NSW,16150,Orange
-2020-07-30,2063,Local contact,X760,Northern Sydney,18250,Willoughby
-2020-07-30,,Overseas,,,,
-2020-07-30,2137,Local contact,X700,Sydney,11520,Canada Bay
+2020-07-30,2168,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-30,2010,Local contact,X720,South Eastern Sydney,17200,Sydney
-2020-07-30,2763,Local contact,X740,Western Sydney,10750,Blacktown
-2020-07-30,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-30,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-30,,Overseas,,,,
+2020-07-30,2137,Local contact,X700,Sydney,11520,Canada Bay
+2020-07-30,2063,Local contact,X760,Northern Sydney,18250,Willoughby
 2020-07-30,2204,Local contact,X700,Sydney,14170,Inner West
-2020-07-30,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-07-30,2212,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-30,2037,Overseas,X700,Sydney,17200,Sydney
+2020-07-30,,Overseas,,,,
+2020-07-30,2230,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-07-30,2205,Local contact,X720,South Eastern Sydney,10500,Bayside
 2020-07-30,2168,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-30,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-07-30,2212,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-07-30,2168,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-07-30,,Overseas,,,,
+2020-07-30,,Overseas,,,,
+2020-07-30,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-07-30,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-30,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-30,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-30,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-07-30,2212,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-07-30,2204,Local contact,X700,Sydney,14170,Inner West
-2020-07-30,2230,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-07-31,2160,Local contact,X740,Western Sydney,12380,Cumberland
-2020-07-31,2165,Local unknown,X710,South Western Sydney,12850,Fairfield
+2020-07-30,2763,Local contact,X740,Western Sydney,10750,Blacktown
 2020-07-31,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-31,2148,Interstate,X740,Western Sydney,10750,Blacktown
-2020-07-31,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-31,2500,Local contact,X730,Illawarra Shoalhaven,18450,Wollongong
-2020-07-31,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-07-31,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
 2020-07-31,2137,Local contact,X700,Sydney,11520,Canada Bay
+2020-07-31,2165,Local unknown,X710,South Western Sydney,12850,Fairfield
 2020-07-31,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-07-31,,Overseas,,,,
-2020-07-31,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-07-31,2166,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-31,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
 2020-07-31,2022,Overseas,X720,South Eastern Sydney,18050,Waverley
+2020-07-31,2500,Local contact,X730,Illawarra Shoalhaven,18450,Wollongong
+2020-07-31,2148,Interstate,X740,Western Sydney,10750,Blacktown
+2020-07-31,,Overseas,,,,
+2020-07-31,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-07-31,2166,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-31,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-07-31,2160,Local contact,X740,Western Sydney,12380,Cumberland
+2020-07-31,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-08-01,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-01,2204,Local contact,X700,Sydney,14170,Inner West
+2020-08-01,2171,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-08-01,2230,Local contact,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-08-01,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-08-01,2170,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-08-01,2047,Overseas,X700,Sydney,11520,Canada Bay
-2020-08-01,2168,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-08-01,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-08-01,2204,Local contact,X700,Sydney,14170,Inner West
-2020-08-01,2161,Local unknown,X740,Western Sydney,12380,Cumberland
 2020-08-01,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-01,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-01,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-08-01,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-01,2168,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-08-01,2650,Interstate,X840,Murrumbidgee,17750,Wagga Wagga
+2020-08-01,2047,Overseas,X700,Sydney,11520,Canada Bay
 2020-08-01,2204,Local contact,X700,Sydney,14170,Inner West
-2020-08-02,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
-2020-08-02,2160,Local contact,X740,Western Sydney,12380,Cumberland
+2020-08-01,2170,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-01,2161,Local unknown,X740,Western Sydney,12380,Cumberland
+2020-08-01,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-02,2650,Interstate,X840,Murrumbidgee,17750,Wagga Wagga
-2020-08-02,2564,Overseas,X710,South Western Sydney,11500,Campbelltown
-2020-08-02,,Overseas,,,,
-2020-08-02,2564,Overseas,X710,South Western Sydney,11500,Campbelltown
+2020-08-02,2026,Local contact,X720,South Eastern Sydney,18050,Waverley
+2020-08-02,2650,Interstate,X840,Murrumbidgee,17750,Wagga Wagga
 2020-08-02,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
 2020-08-02,2650,Interstate,X840,Murrumbidgee,17750,Wagga Wagga
 2020-08-02,2125,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-02,2650,Interstate,X840,Murrumbidgee,17750,Wagga Wagga
-2020-08-03,2168,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-02,,Overseas,,,,
+2020-08-02,2564,Overseas,X710,South Western Sydney,11500,Campbelltown
+2020-08-02,2564,Overseas,X710,South Western Sydney,11500,Campbelltown
+2020-08-02,2160,Local contact,X740,Western Sydney,12380,Cumberland
 2020-08-03,2000,Overseas,X720,South Eastern Sydney,17200,Sydney
+2020-08-03,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-03,2168,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-03,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-03,2171,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-08-03,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-03,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-03,2213,Local unknown,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-08-03,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-03,2017,Local contact,X700,Sydney,17200,Sydney
-2020-08-03,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-03,2177,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-03,2170,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-08-03,2177,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-03,2177,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-03,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
-2020-08-03,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-04,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-04,2046,Local contact,X700,Sydney,11520,Canada Bay
-2020-08-04,2164,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-04,2096,Local contact,X760,Northern Sydney,15990,Northern Beaches
+2020-08-03,2171,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-03,2017,Local contact,X700,Sydney,17200,Sydney
 2020-08-04,,Overseas,,,,
+2020-08-04,2166,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-04,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-04,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-04,2096,Local contact,X760,Northern Sydney,15990,Northern Beaches
 2020-08-04,2164,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-04,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-05,2150,Local contact,X740,Western Sydney,16260,Parramatta
-2020-08-05,2042,Local unknown,X700,Sydney,17200,Sydney
-2020-08-05,2161,Local contact,X740,Western Sydney,12380,Cumberland
-2020-08-05,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-05,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-08-04,2164,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-04,2046,Local contact,X700,Sydney,11520,Canada Bay
 2020-08-05,2303,Local unknown,X800,Hunter New England,15900,Newcastle
+2020-08-05,2042,Local unknown,X700,Sydney,17200,Sydney
 2020-08-05,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-05,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
+2020-08-05,2166,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-05,2161,Local contact,X740,Western Sydney,12380,Cumberland
+2020-08-05,2196,Local contact,X700,Sydney,11570,Canterbury-Bankstown
 2020-08-05,2017,Local contact,X700,Sydney,17200,Sydney
 2020-08-05,2170,Local contact,X710,South Western Sydney,14900,Liverpool
 2020-08-05,2161,Local contact,X740,Western Sydney,12380,Cumberland
 2020-08-05,2164,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-05,2196,Local contact,X700,Sydney,11570,Canterbury-Bankstown
-2020-08-06,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-08-06,2161,Interstate,X740,Western Sydney,12380,Cumberland
+2020-08-05,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-08-05,2011,Local contact,X720,South Eastern Sydney,17200,Sydney
+2020-08-05,2150,Local contact,X740,Western Sydney,16260,Parramatta
 2020-08-06,2303,Local contact,X800,Hunter New England,15900,Newcastle
 2020-08-06,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-06,2303,Local contact,X800,Hunter New England,15900,Newcastle
-2020-08-06,2150,Local contact,X740,Western Sydney,16260,Parramatta
 2020-08-06,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-06,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-08-06,2145,Local contact,X740,Western Sydney,12380,Cumberland
-2020-08-06,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-06,2161,Interstate,X740,Western Sydney,12380,Cumberland
 2020-08-06,2046,Local contact,X700,Sydney,11520,Canada Bay
-2020-08-07,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-07,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-07,2017,Local contact,X700,Sydney,17200,Sydney
+2020-08-06,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-06,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-08-06,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-08-06,2145,Local contact,X740,Western Sydney,12380,Cumberland
+2020-08-06,2145,Local contact,X740,Western Sydney,12380,Cumberland
 2020-08-07,2156,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-07,2165,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-07,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-07,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-07,,Overseas,,,,
 2020-08-07,2165,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-08,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-08,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-08,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-08,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-08,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-08,2120,Local contact,X760,Northern Sydney,14000,Hornsby
-2020-08-08,2177,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-07,2165,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-07,2017,Local contact,X700,Sydney,17200,Sydney
+2020-08-07,2166,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-07,,Overseas,,,,
 2020-08-08,2234,Interstate,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-08-08,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-08,2870,Overseas,X850,Western NSW,16200,Parkes
-2020-08-08,2120,Local contact,X760,Northern Sydney,14000,Hornsby
-2020-08-08,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-08,2120,Local contact,X760,Northern Sydney,14000,Hornsby
 2020-08-08,2763,Local contact,X740,Western Sydney,10750,Blacktown
+2020-08-08,2120,Local contact,X760,Northern Sydney,14000,Hornsby
+2020-08-08,2120,Local contact,X760,Northern Sydney,14000,Hornsby
+2020-08-08,2870,Overseas,X850,Western NSW,16200,Parkes
+2020-08-08,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-08,2177,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-08,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-08,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-08,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-08,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-08,2177,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-08,2177,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-08,2120,Local contact,X760,Northern Sydney,14000,Hornsby
 2020-08-09,2125,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-09,2125,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-09,2154,Overseas,X740,Western Sydney,17420,The Hills Shire
-2020-08-09,2125,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-09,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-09,,Overseas,,,,
-2020-08-09,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-09,2768,Local contact,X740,Western Sydney,10750,Blacktown
 2020-08-09,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-09,2125,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-08-09,2150,Local unknown,X740,Western Sydney,16260,Parramatta
-2020-08-09,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-09,2154,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-08-09,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-09,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-09,2142,Local contact,X740,Western Sydney,12380,Cumberland
+2020-08-09,2768,Local contact,X740,Western Sydney,10750,Blacktown
 2020-08-09,2155,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-10,2156,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-10,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-10,2155,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-10,2113,Local contact,X760,Northern Sydney,16700,Ryde
+2020-08-09,,Overseas,,,,
+2020-08-09,2125,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-09,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-10,2164,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-10,2164,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-10,2159,Local contact,X760,Northern Sydney,14000,Hornsby
 2020-08-10,,Overseas,,,,
 2020-08-10,2259,Overseas,X770,Central Coast,11650,Central Coast
-2020-08-10,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-10,2119,Local contact,X760,Northern Sydney,14000,Hornsby
-2020-08-10,2164,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-10,2164,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-10,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-08-10,2156,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-10,2155,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-08-10,2125,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-10,2150,Local contact,X740,Western Sydney,16260,Parramatta
 2020-08-10,,Overseas,,,,
-2020-08-10,2150,Local contact,X740,Western Sydney,16260,Parramatta
+2020-08-10,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-10,2164,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-10,2113,Local contact,X760,Northern Sydney,16700,Ryde
+2020-08-10,2200,Local unknown,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-08-10,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-10,2150,Local contact,X740,Western Sydney,16260,Parramatta
 2020-08-10,2076,Local contact,X760,Northern Sydney,14500,Ku-ring-gai
 2020-08-10,2111,Interstate,X760,Northern Sydney,14100,Hunters Hill
-2020-08-10,2200,Local unknown,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-08-10,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
-2020-08-10,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
+2020-08-10,2119,Local contact,X760,Northern Sydney,14000,Hornsby
 2020-08-10,2766,Local contact,X740,Western Sydney,10750,Blacktown
 2020-08-10,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
+2020-08-10,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
+2020-08-10,2536,Local contact,X830,Southern NSW,12750,Eurobodalla
+2020-08-11,2156,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-11,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-11,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-11,2164,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-11,2168,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-11,2168,Local contact,X710,South Western Sydney,14900,Liverpool
+2020-08-11,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
 2020-08-11,2145,Interstate,X740,Western Sydney,12380,Cumberland
+2020-08-11,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
+2020-08-11,2145,Interstate,X740,Western Sydney,12380,Cumberland
+2020-08-11,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-08-11,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-11,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-11,2168,Overseas,X710,South Western Sydney,14900,Liverpool
 2020-08-11,2747,Local unknown,X750,Nepean Blue Mountains,16350,Penrith
-2020-08-11,2145,Interstate,X740,Western Sydney,12380,Cumberland
-2020-08-11,2168,Local contact,X710,South Western Sydney,14900,Liverpool
-2020-08-11,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-11,2571,Local contact,X710,South Western Sydney,18400,Wollondilly
-2020-08-11,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-08-11,2565,Local contact,X710,South Western Sydney,11500,Campbelltown
-2020-08-11,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-11,2156,Local contact,X740,Western Sydney,17420,The Hills Shire
-2020-08-11,2164,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-11,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-11,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-12,2066,Overseas,X760,Northern Sydney,14700,Lane Cove
 2020-08-12,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-08-12,2200,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-08-12,,Overseas,,,,
 2020-08-12,,Overseas,,,,
-2020-08-12,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-12,2155,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-08-12,,Overseas,,,,
+2020-08-12,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-12,2066,Overseas,X760,Northern Sydney,14700,Lane Cove
 2020-08-12,,Overseas,,,,
 2020-08-12,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-13,2199,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-08-13,2157,Local contact,X760,Northern Sydney,14000,Hornsby
 2020-08-13,2565,Local unknown,X710,South Western Sydney,11500,Campbelltown
-2020-08-13,2199,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-08-13,,Overseas,,,,
+2020-08-13,2027,Local contact,X720,South Eastern Sydney,18500,Woollahra
+2020-08-13,2027,Local contact,X720,South Eastern Sydney,18500,Woollahra
 2020-08-13,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-13,,Overseas,,,,
+2020-08-13,,Overseas,,,,
+2020-08-13,2176,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-13,2200,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-08-13,2027,Local contact,X720,South Eastern Sydney,18500,Woollahra
-2020-08-13,2027,Local contact,X720,South Eastern Sydney,18500,Woollahra
-2020-08-13,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-13,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-13,2027,Local contact,X720,South Eastern Sydney,18500,Woollahra
 2020-08-13,2213,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-08-13,2166,Local unknown,X710,South Western Sydney,12850,Fairfield
+2020-08-13,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-13,2027,Local contact,X720,South Eastern Sydney,18500,Woollahra
+2020-08-14,2160,Local contact,X740,Western Sydney,12380,Cumberland
 2020-08-14,2160,Local unknown,X740,Western Sydney,12380,Cumberland
 2020-08-14,2176,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-14,2160,Local contact,X740,Western Sydney,12380,Cumberland
 2020-08-14,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-14,2142,Local contact,X740,Western Sydney,12380,Cumberland
 2020-08-14,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
+2020-08-14,2142,Local contact,X740,Western Sydney,12380,Cumberland
 2020-08-14,2176,Local contact,X710,South Western Sydney,12850,Fairfield
+2020-08-15,2213,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-08-15,2213,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-08-15,2154,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-08-15,2166,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-15,2213,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-08-15,2213,Local contact,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-08-15,2144,Local unknown,X740,Western Sydney,12380,Cumberland
+2020-08-16,2142,Local contact,X740,Western Sydney,12380,Cumberland
 2020-08-16,2752,Local unknown,X710,South Western Sydney,18400,Wollondilly
 2020-08-16,2142,Local contact,X740,Western Sydney,12380,Cumberland
-2020-08-16,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-16,2170,Overseas,X710,South Western Sydney,14900,Liverpool
-2020-08-16,2142,Local contact,X740,Western Sydney,12380,Cumberland
+2020-08-16,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-17,,Overseas,,,,
-2020-08-17,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-17,2101,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-08-18,,Interstate,,,,
+2020-08-17,2560,Local contact,X710,South Western Sydney,11500,Campbelltown
 2020-08-18,2166,Local unknown,X710,South Western Sydney,12850,Fairfield
+2020-08-18,2177,Local contact,X710,South Western Sydney,12850,Fairfield
 2020-08-18,2770,Local contact,X740,Western Sydney,10750,Blacktown
 2020-08-18,2153,Local contact,X740,Western Sydney,17420,The Hills Shire
 2020-08-18,2153,Local unknown,X740,Western Sydney,17420,The Hills Shire
 2020-08-18,2177,Local unknown,X710,South Western Sydney,12850,Fairfield
-2020-08-18,2177,Local contact,X710,South Western Sydney,12850,Fairfield
-2020-08-19,,Overseas,,,,
-2020-08-19,2101,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-08-18,,Interstate,,,,
+2020-08-18,2101,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-08-19,2170,Local unknown,X710,South Western Sydney,14900,Liverpool
+2020-08-19,,Overseas,,,,
+2020-08-20,,Local contact,,,,
