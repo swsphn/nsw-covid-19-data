@@ -159,6 +159,58 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
   resolve: {scale: {y: 'independent'}}
 };
 
+
+var cumulative_cases_by_SWS_LGA_spec = {
+  $schema: "https://vega.github.io/schema/vega-lite/v4.json",
+  width: "container",
+  height: "container",
+  config: sws_phn_config,
+  title: "Cumulative COVID-19 Cases by LGA in South Western Sydney",
+  selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
+  resolve: {scale: {y: 'independent'}},
+  data: {
+    url: "https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv"
+  },
+  transform: [
+    {
+      filter: {
+        and: [
+          {field: "lhd_2010_name", equal: "South Western Sydney"},
+          {not: {field: "lga_name19", equal: "Penrith"}}
+        ]
+      }
+    },
+    {
+      aggregate: [{op: "count", as: "date_lga_count"}],
+      groupby: ["notification_date", "lga_name19"]
+    },
+    {
+      window: [
+        {op: "sum", field: "date_lga_count", as: "cum_date_lga_count"}
+      ],
+      groupby: ["lga_name19"],
+      frame: [null, 0]
+    }
+  ],
+  mark: {type: "line", tooltip: true},
+  encoding: {
+    x: {
+      timeUnit: "yearmonthdate",
+      field: "notification_date",
+      title: "Date",
+      type: "temporal"
+    },
+    y: {field: "cum_date_lga_count", title: "Cumulative Cases", type: "quantitative"},
+    color: {
+      field: "lga_name19",
+      type: "nominal",
+      title: "LGA",
+      legend: {orient: "top", columns: 4}
+    }
+  }
+}
+
 // Embed the visualization in the container with id `vis`
 vegaEmbed('#daily_and_cumulative_cases', daily_and_cumulative_cases_spec);
 vegaEmbed('#daily_cases_by_transmission_and_daily_tests', daily_cases_by_transmission_and_daily_tests_spec);
+vegaEmbed('#cumulative_cases_by_SWS_LGA', cumulative_cases_by_SWS_LGA_spec);
