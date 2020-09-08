@@ -242,7 +242,7 @@ var cumulative_cases_by_postcode_template = {
       frame: [null, 0]
     }
   ],
-  mark: {type: "line", tooltip: true},
+  mark: {type: "line", interpolate: "monotone", point: true, tooltip: true},
   encoding: {
     x: {
       timeUnit: "yearmonthdate",
