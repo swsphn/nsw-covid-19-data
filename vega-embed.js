@@ -192,7 +192,7 @@ var cumulative_cases_by_SWS_LGA_spec = {
       frame: [null, 0]
     }
   ],
-  mark: {type: "line", tooltip: true},
+  mark: {type: "line", point: "transparent", tooltip: true},
   encoding: {
     x: {
       timeUnit: "yearmonthdate",
@@ -255,7 +255,7 @@ var cumulative_cases_by_postcode_template = {
       field: "postcode",
       type: "nominal",
       title: "Postcode",
-      legend: {orient: "top", columns: 5}
+      legend: {orient: "top", columns: 6}
     }
   }
 }
