@@ -266,7 +266,6 @@ LGAs.forEach(function (LGA) {
     // Apparently the only way to easily deep copy an object in plan JS is to round trip through JSON strings!!!
     // This is not the best solution in general, but should work for Vega Lite specs, as they are JSON specs.
     let vega_lite_spec = JSON.parse(JSON.stringify(cumulative_cases_by_postcode_template))
-    console.log(vega_lite_spec)
     vega_lite_spec.title = "Cumulative COVID-19 Cases by postcode in " + LGA
     vega_lite_spec.transform[0].filter.and[1].equal = LGA
     vegaEmbed('#cumulative_cases_by_postcode_' + LGA + '_LGA', vega_lite_spec);
