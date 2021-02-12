@@ -2368,7 +2368,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-02,,Overseas,,,,
 2020-04-02,2035,Locally acquired - no links to known case or cluster,X720,South Eastern Sydney,16550,Randwick
 2020-04-02,2220,Locally acquired - no links to known case or cluster,X720,South Eastern Sydney,12930,Georges River
-2020-04-03,2035,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,16550,Randwick
+2020-04-03,2088,Overseas,X760,Northern Sydney,15350,Mosman
 2020-04-03,2026,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18050,Waverley
 2020-04-03,2761,Locally acquired - no links to known case or cluster,X740,Western Sydney,10750,Blacktown
 2020-04-03,2213,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
@@ -2438,7 +2438,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-03,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2020-04-03,,Locally acquired - no links to known case or cluster,,,,
 2020-04-03,2204,Locally acquired - no links to known case or cluster,X700,Sydney,14170,Inner West
-2020-04-03,2088,Overseas,X760,Northern Sydney,15350,Mosman
+2020-04-03,2035,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,16550,Randwick
 2020-04-03,2233,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-04-03,2263,Overseas,X770,Central Coast,11650,Central Coast
 2020-04-03,2537,Overseas,X830,Southern NSW,12750,Eurobodalla
@@ -2450,8 +2450,8 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-03,2148,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
 2020-04-03,2148,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
 2020-04-03,2148,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
-2020-04-03,2530,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-04-03,2750,Locally acquired - linked to known case or cluster,X750,Nepean Blue Mountains,16350,Penrith
+2020-04-03,2530,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-04-03,2050,Locally acquired - no links to known case or cluster,X700,Sydney,17200,Sydney
 2020-04-03,2035,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,16550,Randwick
 2020-04-03,2620,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
@@ -2797,35 +2797,35 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-10,,Locally acquired - linked to known case or cluster,,,,
 2020-04-10,2023,Locally acquired - no links to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
 2020-04-10,2318,Overseas,X800,Hunter New England,16400,Port Stephens
-2020-04-10,,Overseas,,,,
 2020-04-10,2023,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
+2020-04-10,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-04-10,,Overseas,,,,
 2020-04-10,2020,Overseas,X720,South Eastern Sydney,10500,Bayside
 2020-04-10,2350,Overseas,X800,Hunter New England,10130,Armidale Regional
-2020-04-10,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-04-10,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
-2020-04-10,2114,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
 2020-04-10,2114,Locally acquired - no links to known case or cluster,X760,Northern Sydney,16700,Ryde
+2020-04-10,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
+2020-04-10,2578,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
+2020-04-10,2747,Locally acquired - linked to known case or cluster,X750,Nepean Blue Mountains,16350,Penrith
 2020-04-10,2280,Overseas,X800,Hunter New England,14650,Lake Macquarie
 2020-04-10,2032,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,16550,Randwick
 2020-04-10,2031,Locally acquired - no links to known case or cluster,X720,South Eastern Sydney,16550,Randwick
-2020-04-10,2747,Locally acquired - linked to known case or cluster,X750,Nepean Blue Mountains,16350,Penrith
-2020-04-10,2578,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
-2020-04-11,2770,Overseas,X740,Western Sydney,10750,Blacktown
+2020-04-10,2114,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
+2020-04-11,2747,Locally acquired - no links to known case or cluster,X750,Nepean Blue Mountains,16350,Penrith
 2020-04-11,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
+2020-04-11,2770,Overseas,X740,Western Sydney,10750,Blacktown
 2020-04-11,,Locally acquired - linked to known case or cluster,,,,
 2020-04-11,2088,Overseas,X760,Northern Sydney,15350,Mosman
-2020-04-11,2747,Locally acquired - no links to known case or cluster,X750,Nepean Blue Mountains,16350,Penrith
+2020-04-11,2030,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18050,Waverley
 2020-04-11,2323,Overseas,X800,Hunter New England,15050,Maitland
 2020-04-11,,Overseas,,,,
-2020-04-11,2023,Locally acquired - no links to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
 2020-04-11,2017,Overseas,X700,Sydney,17200,Sydney
+2020-04-11,2023,Locally acquired - no links to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
 2020-04-11,,Overseas,,,,
 2020-04-11,2168,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
+2020-04-11,2232,Locally acquired - no links to known case or cluster,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-04-11,2155,Overseas,X740,Western Sydney,17420,The Hills Shire
 2020-04-11,2216,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,10500,Bayside
 2020-04-11,,Locally acquired - linked to known case or cluster,,,,
-2020-04-11,2232,Locally acquired - no links to known case or cluster,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-04-11,2030,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18050,Waverley
 2020-04-11,2103,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-04-11,2031,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,16550,Randwick
 2020-04-12,,Locally acquired - no links to known case or cluster,,,,
@@ -2850,8 +2850,8 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-04-14,2747,Locally acquired - linked to known case or cluster,X750,Nepean Blue Mountains,16350,Penrith
 2020-04-14,2747,Locally acquired - linked to known case or cluster,X750,Nepean Blue Mountains,16350,Penrith
 2020-04-14,2478,Interstate,X810,Northern NSW,10250,Ballina
-2020-04-14,2445,Overseas,X820,Mid North Coast,16380,Port Macquarie-Hastings
 2020-04-14,2747,Locally acquired - linked to known case or cluster,X750,Nepean Blue Mountains,16350,Penrith
+2020-04-14,2445,Overseas,X820,Mid North Coast,16380,Port Macquarie-Hastings
 2020-04-14,2137,Locally acquired - no links to known case or cluster,X700,Sydney,11520,Canada Bay
 2020-04-14,2176,Overseas,X710,South Western Sydney,12850,Fairfield
 2020-04-14,2077,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14000,Hornsby
@@ -3546,7 +3546,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-07-29,2026,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18050,Waverley
 2020-07-30,2200,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-07-30,2230,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-07-30,2204,Locally acquired - linked to known case or cluster,X700,Sydney,14170,Inner West
+2020-07-30,2063,Locally acquired - linked to known case or cluster,X760,Northern Sydney,18250,Willoughby
 2020-07-30,2150,Locally acquired - linked to known case or cluster,X740,Western Sydney,16260,Parramatta
 2020-07-30,,Overseas,,,,
 2020-07-30,2150,Locally acquired - linked to known case or cluster,X740,Western Sydney,16260,Parramatta
@@ -3560,7 +3560,7 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-07-30,2150,Locally acquired - linked to known case or cluster,X740,Western Sydney,16260,Parramatta
 2020-07-30,2212,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-07-30,2168,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
-2020-07-30,2063,Locally acquired - linked to known case or cluster,X760,Northern Sydney,18250,Willoughby
+2020-07-30,2204,Locally acquired - linked to known case or cluster,X700,Sydney,14170,Inner West
 2020-07-30,2150,Locally acquired - linked to known case or cluster,X740,Western Sydney,16260,Parramatta
 2020-07-30,2763,Locally acquired - no links to known case or cluster,X740,Western Sydney,10750,Blacktown
 2020-07-30,2167,Overseas,X710,South Western Sydney,11500,Campbelltown
@@ -4132,10 +4132,10 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-10-15,2768,Overseas,X740,Western Sydney,10750,Blacktown
 2020-10-15,2035,Overseas,X720,South Eastern Sydney,16550,Randwick
 2020-10-15,,Overseas,,,,
-2020-10-16,2567,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
-2020-10-16,2570,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
-2020-10-16,2570,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
 2020-10-16,2154,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-10-16,2570,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
+2020-10-16,2570,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
+2020-10-16,2567,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
 2020-10-16,,Overseas,,,,
 2020-10-16,2570,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
 2020-10-16,2570,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
@@ -4208,8 +4208,8 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-10-26,2767,Overseas,X740,Western Sydney,10750,Blacktown
 2020-10-26,2500,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-10-26,2570,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11450,Camden
-2020-10-27,2565,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
 2020-10-27,,Overseas,,,,
+2020-10-27,2565,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
 2020-10-27,,Overseas,,,,
 2020-10-27,2031,Overseas,X720,South Eastern Sydney,16550,Randwick
 2020-10-27,,Overseas,,,,
@@ -4217,630 +4217,630 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2020-10-28,2171,Locally acquired - no links to known case or cluster,X710,South Western Sydney,14900,Liverpool
 2020-10-28,2171,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
 2020-10-28,2171,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
-2020-10-29,2142,Overseas,X740,Western Sydney,12380,Cumberland
-2020-10-29,2142,Overseas,X740,Western Sydney,12380,Cumberland
-2020-10-29,2142,Overseas,X740,Western Sydney,12380,Cumberland
 2020-10-29,2144,Overseas,X740,Western Sydney,12380,Cumberland
 2020-10-29,2142,Overseas,X740,Western Sydney,12380,Cumberland
-2020-10-29,2747,Overseas,X750,Nepean Blue Mountains,16350,Penrith
+2020-10-29,2142,Overseas,X740,Western Sydney,12380,Cumberland
+2020-10-29,2142,Overseas,X740,Western Sydney,12380,Cumberland
 2020-10-29,2229,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-10-29,2747,Overseas,X750,Nepean Blue Mountains,16350,Penrith
+2020-10-29,2142,Overseas,X740,Western Sydney,12380,Cumberland
+2020-10-30,,Overseas,,,,
 2020-10-30,2166,Locally acquired - linked to known case or cluster,X710,South Western Sydney,12850,Fairfield
-2020-10-30,,Overseas,,,,
-2020-10-30,,Overseas,,,,
 2020-10-30,2216,Overseas,X720,South Eastern Sydney,10500,Bayside
+2020-10-30,,Overseas,,,,
 2020-10-31,,Overseas,,,,
-2020-10-31,2536,Overseas,X830,Southern NSW,12750,Eurobodalla
+2020-10-31,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-10-31,2747,Overseas,X750,Nepean Blue Mountains,16350,Penrith
 2020-10-31,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-10-31,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-11-01,2216,Overseas,X720,South Eastern Sydney,10500,Bayside
-2020-11-01,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-11-01,,Overseas,,,,
-2020-11-01,2481,Overseas,X810,Northern NSW,11350,Byron
+2020-10-31,2536,Overseas,X830,Southern NSW,12750,Eurobodalla
 2020-11-01,2171,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
-2020-11-02,2582,Overseas,X830,Southern NSW,18710,Yass Valley
+2020-11-01,2481,Overseas,X810,Northern NSW,11350,Byron
+2020-11-01,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
+2020-11-01,2216,Overseas,X720,South Eastern Sydney,10500,Bayside
+2020-11-01,,Overseas,,,,
 2020-11-02,2164,Locally acquired - linked to known case or cluster,X710,South Western Sydney,12850,Fairfield
+2020-11-02,2582,Overseas,X830,Southern NSW,18710,Yass Valley
 2020-11-02,2360,Overseas,X800,Hunter New England,14200,Inverell
 2020-11-02,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-11-03,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-11-03,2166,Locally acquired - linked to known case or cluster,X710,South Western Sydney,12850,Fairfield
-2020-11-03,2161,Overseas,X740,Western Sydney,12380,Cumberland
-2020-11-03,,Overseas,,,,
+2020-11-03,2166,Locally acquired - linked to known case or cluster,X710,South Western Sydney,12850,Fairfield
 2020-11-03,2565,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
 2020-11-03,2582,Overseas,X830,Southern NSW,18710,Yass Valley
-2020-11-03,2166,Locally acquired - linked to known case or cluster,X710,South Western Sydney,12850,Fairfield
+2020-11-03,2161,Overseas,X740,Western Sydney,12380,Cumberland
+2020-11-03,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-11-03,,Overseas,,,,
 2020-11-04,,Overseas,,,,
 2020-11-04,2079,Overseas,X760,Northern Sydney,14000,Hornsby
 2020-11-04,,Overseas,,,,
-2020-11-05,,Overseas,,,,
 2020-11-05,2577,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
-2020-11-05,,Overseas,,,,
-2020-11-05,2170,Overseas,X710,South Western Sydney,14900,Liverpool
 2020-11-05,2577,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
 2020-11-05,2170,Overseas,X710,South Western Sydney,14900,Liverpool
+2020-11-05,2170,Overseas,X710,South Western Sydney,14900,Liverpool
+2020-11-05,,Overseas,,,,
 2020-11-05,2577,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
-2020-11-05,2577,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
-2020-11-05,2173,Overseas,X710,South Western Sydney,14900,Liverpool
 2020-11-05,2211,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-11-06,2577,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
+2020-11-05,2577,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
+2020-11-05,,Overseas,,,,
+2020-11-05,2173,Overseas,X710,South Western Sydney,14900,Liverpool
+2020-11-06,,Overseas,,,,
 2020-11-06,2140,Overseas,X700,Sydney,17100,Strathfield
 2020-11-06,2126,Overseas,X760,Northern Sydney,14000,Hornsby
-2020-11-06,,Overseas,,,,
 2020-11-06,2500,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
+2020-11-06,2577,Locally acquired - linked to known case or cluster,X710,South Western Sydney,18350,Wingecarribee
+2020-11-07,2008,Overseas,X700,Sydney,17200,Sydney
 2020-11-07,2192,Overseas,X700,Sydney,11570,Canterbury-Bankstown
 2020-11-07,,Overseas,,,,
-2020-11-07,2008,Overseas,X700,Sydney,17200,Sydney
 2020-11-07,,Overseas,,,,
-2020-11-08,2145,Overseas,X740,Western Sydney,12380,Cumberland
-2020-11-08,2322,Overseas,X800,Hunter New England,15050,Maitland
 2020-11-08,2300,Overseas,X800,Hunter New England,15900,Newcastle
-2020-11-08,,Overseas,,,,
-2020-11-08,,Overseas,,,,
 2020-11-08,2316,Overseas,X800,Hunter New England,16400,Port Stephens
 2020-11-08,,Overseas,,,,
-2020-11-09,2151,Overseas,X740,Western Sydney,16260,Parramatta
+2020-11-08,2322,Overseas,X800,Hunter New England,15050,Maitland
+2020-11-08,2145,Overseas,X740,Western Sydney,12380,Cumberland
+2020-11-08,,Overseas,,,,
+2020-11-08,,Overseas,,,,
 2020-11-09,2008,Overseas,X700,Sydney,17200,Sydney
+2020-11-09,2151,Overseas,X740,Western Sydney,16260,Parramatta
+2020-11-09,,Overseas,,,,
 2020-11-09,2580,Overseas,X830,Southern NSW,13310,Goulburn Mulwaree
 2020-11-09,,Overseas,,,,
-2020-11-09,,Overseas,,,,
 2020-11-10,,Overseas,,,,
 2020-11-10,,Overseas,,,,
+2020-11-11,,Overseas,,,,
+2020-11-11,,Overseas,,,,
 2020-11-11,,Overseas,,,,
 2020-11-11,,Overseas,,,,
 2020-11-11,2200,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-11-11,,Overseas,,,,
-2020-11-11,,Overseas,,,,
 2020-11-12,,Overseas,,,,
 2020-11-12,,Overseas,,,,
-2020-11-13,2322,Overseas,X800,Hunter New England,15050,Maitland
-2020-11-13,2022,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-11-13,,Overseas,,,,
-2020-11-13,,Overseas,,,,
 2020-11-13,2135,Overseas,X700,Sydney,17100,Strathfield
+2020-11-13,2022,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-11-13,2127,Locally acquired - linked to known case or cluster,X740,Western Sydney,16260,Parramatta
-2020-11-14,2229,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-11-14,,Overseas,,,,
-2020-11-14,2481,Overseas,X810,Northern NSW,11350,Byron
-2020-11-14,2016,Overseas,X700,Sydney,17200,Sydney
-2020-11-14,2079,Overseas,X760,Northern Sydney,14000,Hornsby
-2020-11-14,,Overseas,,,,
+2020-11-13,,Overseas,,,,
+2020-11-13,2322,Overseas,X800,Hunter New England,15050,Maitland
+2020-11-13,,Overseas,,,,
 2020-11-14,,Overseas,,,,
 2020-11-14,2145,Overseas,X740,Western Sydney,12380,Cumberland
+2020-11-14,2079,Overseas,X760,Northern Sydney,14000,Hornsby
+2020-11-14,2229,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-11-14,2481,Overseas,X810,Northern NSW,11350,Byron
+2020-11-14,,Overseas,,,,
+2020-11-14,,Overseas,,,,
+2020-11-14,2016,Overseas,X700,Sydney,17200,Sydney
 2020-11-15,2142,Overseas,X740,Western Sydney,12380,Cumberland
 2020-11-15,,Overseas,,,,
 2020-11-16,,Overseas,,,,
-2020-11-16,2337,Overseas,X800,Hunter New England,17620,Upper Hunter Shire
 2020-11-16,2041,Overseas,X700,Sydney,14170,Inner West
+2020-11-16,2337,Overseas,X800,Hunter New England,17620,Upper Hunter Shire
 2020-11-16,,Overseas,,,,
-2020-11-17,,Overseas,,,,
 2020-11-17,,Overseas,,,,
 2020-11-17,,Overseas,,,,
 2020-11-17,2515,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-11-17,,Overseas,,,,
 2020-11-17,,Overseas,,,,
+2020-11-17,,Overseas,,,,
 2020-11-18,,Overseas,,,,
-2020-11-18,,Overseas,,,,
-2020-11-18,2010,Overseas,X720,South Eastern Sydney,17200,Sydney
 2020-11-18,2213,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-11-18,,Overseas,,,,
-2020-11-18,2500,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-11-18,,Overseas,,,,
-2020-11-19,,Overseas,,,,
-2020-11-19,,Overseas,,,,
+2020-11-18,2500,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
+2020-11-18,2010,Overseas,X720,South Eastern Sydney,17200,Sydney
+2020-11-18,,Overseas,,,,
 2020-11-19,2213,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-11-20,,Overseas,,,,
-2020-11-20,,Overseas,,,,
+2020-11-19,,Overseas,,,,
+2020-11-19,,Overseas,,,,
 2020-11-20,,Overseas,,,,
 2020-11-20,,Overseas,,,,
 2020-11-20,,Overseas,,,,
 2020-11-20,,Overseas,,,,
 2020-11-20,2230,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-11-20,,Overseas,,,,
-2020-11-20,2061,Overseas,X760,Northern Sydney,15950,North Sydney
 2020-11-20,,Overseas,,,,
+2020-11-20,,Overseas,,,,
+2020-11-20,,Overseas,,,,
+2020-11-20,2061,Overseas,X760,Northern Sydney,15950,North Sydney
 2020-11-21,,Overseas,,,,
 2020-11-21,,Overseas,,,,
-2020-11-21,2229,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-11-21,2042,Overseas,X700,Sydney,17200,Sydney
-2020-11-21,2228,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-11-21,,Overseas,,,,
 2020-11-21,2173,Overseas,X710,South Western Sydney,14900,Liverpool
+2020-11-21,2228,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-11-21,2229,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-11-21,2042,Overseas,X700,Sydney,17200,Sydney
 2020-11-21,,Overseas,,,,
 2020-11-21,,Overseas,,,,
+2020-11-22,2135,Overseas,X700,Sydney,17100,Strathfield
+2020-11-22,2205,Overseas,X720,South Eastern Sydney,10500,Bayside
 2020-11-22,,Overseas,,,,
 2020-11-22,,Overseas,,,,
 2020-11-22,2500,Overseas,X730,Illawarra Shoalhaven,18450,Wollongong
-2020-11-22,2205,Overseas,X720,South Eastern Sydney,10500,Bayside
-2020-11-22,2135,Overseas,X700,Sydney,17100,Strathfield
-2020-11-23,,Overseas,,,,
 2020-11-23,,Overseas,,,,
 2020-11-23,,Overseas,,,,
 2020-11-23,,Overseas,,,,
 2020-11-23,,Overseas,,,,
 2020-11-23,2096,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-11-23,,Overseas,,,,
+2020-11-23,,Overseas,,,,
 2020-11-24,2120,Overseas,X760,Northern Sydney,14000,Hornsby
 2020-11-24,2170,Overseas,X710,South Western Sydney,14900,Liverpool
-2020-11-26,,Overseas,,,,
-2020-11-26,,Overseas,,,,
 2020-11-26,2017,Overseas,X700,Sydney,17200,Sydney
 2020-11-26,,Overseas,,,,
 2020-11-26,,Overseas,,,,
-2020-11-27,2030,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-11-27,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-11-27,2015,Overseas,X700,Sydney,17200,Sydney
-2020-11-27,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-11-26,,Overseas,,,,
+2020-11-26,,Overseas,,,,
 2020-11-27,2161,Overseas,X740,Western Sydney,12380,Cumberland
 2020-11-27,,Overseas,,,,
-2020-11-27,,Overseas,,,,
+2020-11-27,2015,Overseas,X700,Sydney,17200,Sydney
+2020-11-27,2030,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-11-27,2829,Overseas,X850,Western NSW,12150,Coonamble
-2020-11-28,,Overseas,,,,
-2020-11-28,2021,Overseas,X720,South Eastern Sydney,18500,Woollahra
+2020-11-27,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-11-27,,Overseas,,,,
+2020-11-27,2099,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-11-28,,Overseas,,,,
 2020-11-28,2035,Overseas,X720,South Eastern Sydney,16550,Randwick
-2020-11-29,2161,Overseas,X740,Western Sydney,12380,Cumberland
+2020-11-28,,Overseas,,,,
+2020-11-28,2021,Overseas,X720,South Eastern Sydney,18500,Woollahra
+2020-11-29,,Overseas,,,,
 2020-11-29,2790,Overseas,X750,Nepean Blue Mountains,14870,Lithgow
-2020-11-29,,Overseas,,,,
-2020-11-29,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-11-29,2626,Overseas,X830,Southern NSW,17040,Snowy Monaro Regional
-2020-11-29,,Overseas,,,,
+2020-11-29,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-11-29,2150,Overseas,X740,Western Sydney,16260,Parramatta
-2020-11-30,2088,Overseas,X760,Northern Sydney,15350,Mosman
-2020-11-30,2283,Overseas,X800,Hunter New England,14650,Lake Macquarie
-2020-11-30,,Overseas,,,,
-2020-11-30,2478,Overseas,X810,Northern NSW,10250,Ballina
+2020-11-29,,Overseas,,,,
+2020-11-29,2161,Overseas,X740,Western Sydney,12380,Cumberland
 2020-11-30,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
 2020-11-30,2626,Overseas,X830,Southern NSW,17040,Snowy Monaro Regional
-2020-11-30,2034,Overseas,X720,South Eastern Sydney,16550,Randwick
 2020-11-30,2762,Overseas,X740,Western Sydney,10750,Blacktown
-2020-12-01,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-12-01,,Overseas,,,,
-2020-12-01,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
+2020-11-30,2088,Overseas,X760,Northern Sydney,15350,Mosman
+2020-11-30,,Overseas,,,,
+2020-11-30,2283,Overseas,X800,Hunter New England,14650,Lake Macquarie
+2020-11-30,2034,Overseas,X720,South Eastern Sydney,16550,Randwick
+2020-11-30,2478,Overseas,X810,Northern NSW,10250,Ballina
 2020-12-01,2199,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-12-01,2790,Overseas,X750,Nepean Blue Mountains,14870,Lithgow
+2020-12-01,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
+2020-12-01,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-12-01,2210,Overseas,X720,South Eastern Sydney,12930,Georges River
-2020-12-02,2152,Overseas,X740,Western Sydney,16260,Parramatta
+2020-12-01,2790,Overseas,X750,Nepean Blue Mountains,14870,Lithgow
+2020-12-01,,Overseas,,,,
+2020-12-02,,Overseas,,,,
 2020-12-02,2558,Locally acquired - no links to known case or cluster,X710,South Western Sydney,11500,Campbelltown
+2020-12-02,,Overseas,,,,
 2020-12-02,2113,Overseas,X760,Northern Sydney,16700,Ryde
-2020-12-02,,Overseas,,,,
-2020-12-02,2141,Overseas,X740,Western Sydney,12380,Cumberland
 2020-12-02,2031,Overseas,X720,South Eastern Sydney,16550,Randwick
+2020-12-02,2141,Overseas,X740,Western Sydney,12380,Cumberland
+2020-12-02,2152,Overseas,X740,Western Sydney,16260,Parramatta
 2020-12-02,2061,Overseas,X760,Northern Sydney,15950,North Sydney
-2020-12-02,,Overseas,,,,
-2020-12-03,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-12-03,2082,Overseas,X760,Northern Sydney,14000,Hornsby
-2020-12-03,,Overseas,,,,
 2020-12-03,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-12-03,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-12-03,,Overseas,,,,
 2020-12-04,2650,Overseas,X840,Murrumbidgee,17750,Wagga Wagga
 2020-12-04,2650,Overseas,X840,Murrumbidgee,17750,Wagga Wagga
+2020-12-05,,Overseas,,,,
+2020-12-05,2233,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-12-05,2125,Overseas,X740,Western Sydney,17420,The Hills Shire
-2020-12-05,2233,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-12-05,2233,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-12-05,,Overseas,,,,
-2020-12-05,,Overseas,,,,
-2020-12-06,2146,Overseas,X740,Western Sydney,16260,Parramatta
+2020-12-05,2233,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-12-06,,Overseas,,,,
+2020-12-06,2146,Overseas,X740,Western Sydney,16260,Parramatta
 2020-12-06,2030,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-12-06,2150,Overseas,X740,Western Sydney,16260,Parramatta
 2020-12-06,2611,Overseas,,,,
 2020-12-06,2022,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-12-06,,Overseas,,,,
-2020-12-07,2223,Overseas,X720,South Eastern Sydney,12930,Georges River
-2020-12-07,,Overseas,,,,
-2020-12-07,,Overseas,,,,
 2020-12-07,2121,Overseas,X760,Northern Sydney,16260,Parramatta
+2020-12-07,,Overseas,,,,
+2020-12-07,,Overseas,,,,
+2020-12-07,2223,Overseas,X720,South Eastern Sydney,12930,Georges River
 2020-12-08,,Overseas,,,,
 2020-12-08,2034,Overseas,X720,South Eastern Sydney,16550,Randwick
 2020-12-09,,Overseas,,,,
-2020-12-09,2314,Overseas,,,,
-2020-12-09,2232,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-12-09,,Overseas,,,,
-2020-12-09,2137,Overseas,X700,Sydney,11520,Canada Bay
 2020-12-09,2147,Overseas,X740,Western Sydney,10750,Blacktown
 2020-12-09,2232,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-12-09,,Overseas,,,,
+2020-12-09,2232,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-12-09,2314,Overseas,,,,
+2020-12-09,2137,Overseas,X700,Sydney,11520,Canada Bay
 2020-12-09,2611,Overseas,,,,
 2020-12-09,2769,Overseas,X740,Western Sydney,10750,Blacktown
 2020-12-10,,Overseas,,,,
-2020-12-10,2030,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-12-10,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-12-10,2316,Overseas,X800,Hunter New England,16400,Port Stephens
-2020-12-10,2154,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-12-10,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-12-10,,Overseas,,,,
+2020-12-10,2030,Overseas,X720,South Eastern Sydney,18050,Waverley
+2020-12-10,2154,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-12-11,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-12-11,,Overseas,,,,
 2020-12-11,2075,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
-2020-12-11,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
+2020-12-12,2756,Overseas,X750,Nepean Blue Mountains,13800,Hawkesbury
 2020-12-12,2148,Overseas,X740,Western Sydney,10750,Blacktown
 2020-12-12,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-12-12,2756,Overseas,X750,Nepean Blue Mountains,13800,Hawkesbury
+2020-12-13,2260,Overseas,X770,Central Coast,11650,Central Coast
 2020-12-13,2540,Overseas,X730,Illawarra Shoalhaven,16950,Shoalhaven
-2020-12-13,2163,Overseas,X710,South Western Sydney,12850,Fairfield
 2020-12-13,,Overseas,,,,
 2020-12-13,2107,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-12-13,2260,Overseas,X770,Central Coast,11650,Central Coast
-2020-12-14,2061,Overseas,X760,Northern Sydney,15950,North Sydney
-2020-12-14,,Overseas,,,,
+2020-12-13,2163,Overseas,X710,South Western Sydney,12850,Fairfield
 2020-12-14,2192,Overseas,X700,Sydney,11570,Canterbury-Bankstown
 2020-12-14,,Overseas,,,,
+2020-12-14,2061,Overseas,X760,Northern Sydney,15950,North Sydney
+2020-12-14,2061,Overseas,X760,Northern Sydney,15950,North Sydney
 2020-12-14,,Overseas,,,,
 2020-12-14,2061,Overseas,X760,Northern Sydney,15950,North Sydney
-2020-12-14,2061,Overseas,X760,Northern Sydney,15950,North Sydney
+2020-12-14,,Overseas,,,,
 2020-12-15,,Overseas,,,,
 2020-12-15,2010,Overseas,X720,South Eastern Sydney,17200,Sydney
 2020-12-15,2010,Overseas,X720,South Eastern Sydney,17200,Sydney
 2020-12-16,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-16,2093,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2020-12-16,2220,Overseas,X720,South Eastern Sydney,12930,Georges River
-2020-12-16,2035,Overseas,X720,South Eastern Sydney,16550,Randwick
+2020-12-16,2093,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-12-16,2196,Locally acquired - no links to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2020-12-16,2035,Overseas,X720,South Eastern Sydney,16550,Randwick
 2020-12-16,2200,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-12-16,2196,Locally acquired - no links to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2020-12-16,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-16,2035,Overseas,X720,South Eastern Sydney,16550,Randwick
 2020-12-16,,Overseas,,,,
+2020-12-17,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2230,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-12-17,2094,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2153,Overseas,X740,Western Sydney,17420,The Hills Shire
-2020-12-17,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2086,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-17,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2101,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2086,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,,Overseas,,,,
+2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-17,2230,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-12-17,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
+2020-12-17,2094,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-17,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-12-18,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-12-18,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-12-18,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-12-18,,Overseas,,,,
-2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,,Overseas,,,,
-2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,2099,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,2062,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15950,North Sydney
-2020-12-18,2144,Overseas,X740,Western Sydney,12380,Cumberland
-2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,,Overseas,,,,
-2020-12-18,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,2257,Locally acquired - linked to known case or cluster,X770,Central Coast,11650,Central Coast
-2020-12-18,2062,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15950,North Sydney
-2020-12-18,2112,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
 2020-12-18,2097,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,2257,Locally acquired - linked to known case or cluster,X770,Central Coast,11650,Central Coast
-2020-12-18,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-18,,Overseas,,,,
-2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2099,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-18,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-12-18,2062,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15950,North Sydney
+2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-12-18,,Overseas,,,,
+2020-12-18,2062,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15950,North Sydney
+2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-12-18,,Overseas,,,,
+2020-12-18,,Overseas,,,,
+2020-12-18,2257,Locally acquired - linked to known case or cluster,X770,Central Coast,11650,Central Coast
+2020-12-18,,Overseas,,,,
+2020-12-18,2144,Overseas,X740,Western Sydney,12380,Cumberland
+2020-12-18,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2112,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
+2020-12-18,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-12-18,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-18,2257,Locally acquired - linked to known case or cluster,X770,Central Coast,11650,Central Coast
+2020-12-18,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-19,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-19,,Overseas,,,,
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2083,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14000,Hornsby
-2020-12-19,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-19,2077,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14000,Hornsby
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,,Overseas,,,,
-2020-12-19,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-19,2074,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14500,Ku-ring-gai
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,,Overseas,,,,
-2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2110,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14100,Hunters Hill
 2020-12-19,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-19,2077,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14000,Hornsby
+2020-12-19,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2089,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15950,North Sydney
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-19,,Overseas,,,,
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-19,2074,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14500,Ku-ring-gai
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2017,Locally acquired - linked to known case or cluster,X700,Sydney,17200,Sydney
-2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-19,2066,Overseas,X760,Northern Sydney,14700,Lane Cove
-2020-12-19,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2099,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,,Overseas,,,,
-2020-12-20,2093,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2763,Overseas,X740,Western Sydney,10750,Blacktown
 2020-12-20,2210,Overseas,X720,South Eastern Sydney,12930,Georges River
-2020-12-20,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,2075,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14500,Ku-ring-gai
 2020-12-20,2559,Overseas,X710,South Western Sydney,11500,Campbelltown
 2020-12-20,,Overseas,,,,
-2020-12-20,,Overseas,,,,
 2020-12-20,2145,Overseas,X740,Western Sydney,12380,Cumberland
-2020-12-20,,Overseas,,,,
-2020-12-20,2540,Overseas,X730,Illawarra Shoalhaven,16950,Shoalhaven
-2020-12-20,2077,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14000,Hornsby
-2020-12-20,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2756,Overseas,X750,Nepean Blue Mountains,13800,Hawkesbury
-2020-12-20,2108,Locally acquired - no links to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-12-20,2285,Overseas,X800,Hunter New England,14650,Lake Macquarie
-2020-12-20,2075,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14500,Ku-ring-gai
-2020-12-20,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
-2020-12-20,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2101,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-20,2074,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14500,Ku-ring-gai
 2020-12-20,,Overseas,,,,
+2020-12-20,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
+2020-12-20,2099,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-20,2011,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,17200,Sydney
-2020-12-21,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-21,2101,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-21,2047,Overseas,X700,Sydney,11520,Canada Bay
-2020-12-21,2143,Locally acquired - linked to known case or cluster,X740,Western Sydney,11570,Canterbury-Bankstown
+2020-12-20,2074,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14500,Ku-ring-gai
+2020-12-20,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,2108,Locally acquired - no links to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,2077,Locally acquired - linked to known case or cluster,X760,Northern Sydney,14000,Hornsby
+2020-12-20,2093,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,,Overseas,,,,
+2020-12-20,,Overseas,,,,
+2020-12-20,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,,Overseas,,,,
+2020-12-20,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,2763,Overseas,X740,Western Sydney,10750,Blacktown
+2020-12-20,2101,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-20,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
+2020-12-20,2540,Overseas,X730,Illawarra Shoalhaven,16950,Shoalhaven
+2020-12-20,2756,Overseas,X750,Nepean Blue Mountains,13800,Hawkesbury
 2020-12-21,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-21,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-21,2101,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-21,2570,Overseas,X710,South Western Sydney,11450,Camden
 2020-12-21,2767,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
-2020-12-21,2767,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
+2020-12-21,2143,Locally acquired - linked to known case or cluster,X740,Western Sydney,11570,Canterbury-Bankstown
+2020-12-21,2047,Overseas,X700,Sydney,11520,Canada Bay
+2020-12-21,,Overseas,,,,
 2020-12-21,2025,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
+2020-12-21,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-21,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-21,,Overseas,,,,
-2020-12-21,,Overseas,,,,
+2020-12-21,2767,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
+2020-12-22,2761,Overseas,X740,Western Sydney,10750,Blacktown
 2020-12-22,2035,Overseas,X720,South Eastern Sydney,16550,Randwick
 2020-12-22,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-22,2042,Overseas,X700,Sydney,17200,Sydney
-2020-12-22,2630,Overseas,X830,Southern NSW,17040,Snowy Monaro Regional
-2020-12-22,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-22,2763,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
-2020-12-22,2761,Overseas,X740,Western Sydney,10750,Blacktown
 2020-12-22,2101,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-22,2767,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
-2020-12-22,2761,Overseas,X740,Western Sydney,10750,Blacktown
-2020-12-22,2155,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-12-22,2042,Overseas,X700,Sydney,17200,Sydney
 2020-12-22,2165,Overseas,X710,South Western Sydney,12850,Fairfield
+2020-12-22,2630,Overseas,X830,Southern NSW,17040,Snowy Monaro Regional
 2020-12-22,2620,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
-2020-12-23,2066,Locally acquired - no links to known case or cluster,X760,Northern Sydney,14700,Lane Cove
-2020-12-23,2150,Locally acquired - linked to known case or cluster,X740,Western Sydney,16260,Parramatta
-2020-12-23,2041,Locally acquired - linked to known case or cluster,X700,Sydney,14170,Inner West
-2020-12-23,2086,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-23,,Overseas,,,,
+2020-12-22,2155,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-12-22,2767,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
+2020-12-22,2763,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
+2020-12-22,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-22,2761,Overseas,X740,Western Sydney,10750,Blacktown
 2020-12-23,2767,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
-2020-12-23,2142,Overseas,X740,Western Sydney,12380,Cumberland
-2020-12-23,2085,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-12-23,2029,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
 2020-12-23,,Overseas,,,,
-2020-12-23,2085,Locally acquired - no links to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-23,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-23,,Overseas,,,,
+2020-12-23,,Overseas,,,,
+2020-12-23,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-23,2041,Locally acquired - linked to known case or cluster,X700,Sydney,14170,Inner West
+2020-12-23,2085,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-12-23,2142,Overseas,X740,Western Sydney,12380,Cumberland
+2020-12-23,,Overseas,,,,
+2020-12-23,2066,Locally acquired - no links to known case or cluster,X760,Northern Sydney,14700,Lane Cove
+2020-12-23,2085,Locally acquired - no links to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-23,2150,Locally acquired - linked to known case or cluster,X740,Western Sydney,16260,Parramatta
+2020-12-23,2029,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
+2020-12-23,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-23,,Overseas,,,,
+2020-12-23,2086,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-23,,Overseas,,,,
 2020-12-23,2088,Overseas,X760,Northern Sydney,15350,Mosman
 2020-12-23,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-23,,Overseas,,,,
+2020-12-23,2041,Locally acquired - linked to known case or cluster,X700,Sydney,14170,Inner West
 2020-12-23,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-23,,Overseas,,,,
-2020-12-23,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-23,,Overseas,,,,
-2020-12-24,2025,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
-2020-12-24,2037,Locally acquired - linked to known case or cluster,X700,Sydney,17200,Sydney
-2020-12-24,2042,Overseas,X700,Sydney,17200,Sydney
-2020-12-24,2041,Locally acquired - linked to known case or cluster,X700,Sydney,14170,Inner West
 2020-12-24,2212,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-12-24,,Overseas,,,,
+2020-12-24,2042,Overseas,X700,Sydney,17200,Sydney
+2020-12-24,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-24,2104,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-24,,Overseas,,,,
 2020-12-24,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
 2020-12-24,2155,Locally acquired - linked to known case or cluster,X740,Western Sydney,17420,The Hills Shire
-2020-12-24,,Overseas,,,,
-2020-12-24,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-24,2037,Locally acquired - linked to known case or cluster,X700,Sydney,17200,Sydney
 2020-12-24,2570,Overseas,X710,South Western Sydney,11450,Camden
-2020-12-25,2620,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
-2020-12-25,2230,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,17150,Sutherland Shire
-2020-12-25,2086,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-24,2041,Locally acquired - linked to known case or cluster,X700,Sydney,14170,Inner West
+2020-12-24,2025,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
 2020-12-25,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-25,2062,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15950,North Sydney
-2020-12-25,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-25,,Overseas,,,,
-2020-12-25,2037,Overseas,X700,Sydney,17200,Sydney
-2020-12-25,2134,Overseas,X700,Sydney,11300,Burwood
 2020-12-25,2108,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-25,,Overseas,,,,
-2020-12-26,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-26,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
-2020-12-26,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-26,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
-2020-12-26,2620,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
-2020-12-26,2484,Overseas,X810,Northern NSW,17550,Tweed
-2020-12-26,2763,Overseas,X740,Western Sydney,10750,Blacktown
-2020-12-26,2156,Overseas,X740,Western Sydney,17420,The Hills Shire
-2020-12-26,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-26,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
-2020-12-26,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
+2020-12-25,2037,Overseas,X700,Sydney,17200,Sydney
+2020-12-25,,Overseas,,,,
+2020-12-25,2134,Overseas,X700,Sydney,11300,Burwood
+2020-12-25,2062,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15950,North Sydney
+2020-12-25,2230,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,17150,Sutherland Shire
+2020-12-25,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-25,2620,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
+2020-12-25,2086,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-26,,Overseas,,,,
+2020-12-26,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
+2020-12-26,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
 2020-12-26,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-27,2103,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-12-27,2103,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2020-12-27,2800,Overseas,X850,Western NSW,16150,Orange
-2020-12-27,,Overseas,,,,
-2020-12-27,,Overseas,,,,
-2020-12-27,2099,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-27,,Overseas,,,,
+2020-12-26,2106,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-26,2156,Overseas,X740,Western Sydney,17420,The Hills Shire
+2020-12-26,2620,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
+2020-12-26,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
+2020-12-26,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
+2020-12-26,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-26,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-26,2763,Overseas,X740,Western Sydney,10750,Blacktown
+2020-12-26,2484,Overseas,X810,Northern NSW,17550,Tweed
 2020-12-27,2103,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-27,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-27,2770,Overseas,X740,Western Sydney,10750,Blacktown
+2020-12-27,2103,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-12-27,2099,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-27,2103,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2020-12-27,,Overseas,,,,
+2020-12-27,2800,Overseas,X850,Western NSW,16150,Orange
+2020-12-27,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-27,,Overseas,,,,
+2020-12-27,,Overseas,,,,
+2020-12-28,,Overseas,,,,
 2020-12-28,2011,Overseas,X720,South Eastern Sydney,17200,Sydney
 2020-12-28,2011,Overseas,X720,South Eastern Sydney,17200,Sydney
 2020-12-28,2232,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2020-12-28,,Overseas,,,,
-2020-12-28,,Overseas,,,,
-2020-12-28,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
-2020-12-28,2257,Locally acquired - linked to known case or cluster,X770,Central Coast,11650,Central Coast
 2020-12-28,2132,Locally acquired - linked to known case or cluster,X700,Sydney,11300,Burwood
+2020-12-28,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
 2020-12-28,2107,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-28,2257,Locally acquired - linked to known case or cluster,X770,Central Coast,11650,Central Coast
+2020-12-29,2135,Locally acquired - no links to known case or cluster,X700,Sydney,17100,Strathfield
+2020-12-29,2500,Locally acquired - no links to known case or cluster,X730,Illawarra Shoalhaven,18450,Wollongong
 2020-12-29,2026,Overseas,X720,South Eastern Sydney,18050,Waverley
-2020-12-29,2257,Locally acquired - linked to known case or cluster,X770,Central Coast,11650,Central Coast
-2020-12-29,2100,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-29,2500,Locally acquired - linked to known case or cluster,X730,Illawarra Shoalhaven,18450,Wollongong
+2020-12-29,2155,Locally acquired - linked to known case or cluster,X740,Western Sydney,17420,The Hills Shire
+2020-12-29,2198,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-12-29,2132,Locally acquired - linked to known case or cluster,X700,Sydney,11300,Burwood
+2020-12-29,2110,Overseas,X760,Northern Sydney,14100,Hunters Hill
 2020-12-29,2144,Overseas,X740,Western Sydney,12380,Cumberland
-2020-12-29,2198,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11570,Canterbury-Bankstown
-2020-12-29,2198,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-12-29,,Overseas,,,,
 2020-12-29,2194,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2020-12-29,2198,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11570,Canterbury-Bankstown
+2020-12-29,,Overseas,,,,
 2020-12-29,2122,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
-2020-12-29,,Overseas,,,,
-2020-12-29,,Overseas,,,,
-2020-12-29,2110,Overseas,X760,Northern Sydney,14100,Hunters Hill
+2020-12-29,2198,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-12-29,2190,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
 2020-12-29,2132,Locally acquired - linked to known case or cluster,X700,Sydney,11300,Burwood
-2020-12-29,2132,Locally acquired - linked to known case or cluster,X700,Sydney,11300,Burwood
-2020-12-29,2500,Locally acquired - no links to known case or cluster,X730,Illawarra Shoalhaven,18450,Wollongong
-2020-12-29,2135,Locally acquired - no links to known case or cluster,X700,Sydney,17100,Strathfield
-2020-12-29,2132,Locally acquired - linked to known case or cluster,X700,Sydney,11300,Burwood
 2020-12-29,2207,Overseas,X720,South Eastern Sydney,10500,Bayside
-2020-12-29,2155,Locally acquired - linked to known case or cluster,X740,Western Sydney,17420,The Hills Shire
 2020-12-29,2026,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18050,Waverley
-2020-12-29,2026,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18050,Waverley
-2020-12-29,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-29,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-29,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2020-12-29,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
 2020-12-29,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-29,2017,Locally acquired - linked to known case or cluster,X700,Sydney,17200,Sydney
+2020-12-29,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-29,2500,Locally acquired - linked to known case or cluster,X730,Illawarra Shoalhaven,18450,Wollongong
+2020-12-29,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-29,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-29,2026,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18050,Waverley
 2020-12-29,,Overseas,,,,
-2020-12-30,2160,Overseas,X740,Western Sydney,12380,Cumberland
-2020-12-30,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
-2020-12-30,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-29,2132,Locally acquired - linked to known case or cluster,X700,Sydney,11300,Burwood
+2020-12-29,2170,Locally acquired - linked to known case or cluster,X710,South Western Sydney,14900,Liverpool
+2020-12-29,2257,Locally acquired - linked to known case or cluster,X770,Central Coast,11650,Central Coast
+2020-12-29,2100,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2020-12-30,,Overseas,,,,
-2020-12-30,2122,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
 2020-12-30,2067,Locally acquired - linked to known case or cluster,X760,Northern Sydney,18250,Willoughby
 2020-12-30,2478,Overseas,X810,Northern NSW,10250,Ballina
 2020-12-30,,Overseas,,,,
 2020-12-30,,Overseas,,,,
+2020-12-30,2160,Overseas,X740,Western Sydney,12380,Cumberland
+2020-12-30,2122,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
+2020-12-30,2021,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,18500,Woollahra
 2020-12-30,2000,Overseas,X720,South Eastern Sydney,17200,Sydney
+2020-12-30,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2020-12-31,2145,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2020-12-31,2143,Locally acquired - linked to known case or cluster,X740,Western Sydney,11570,Canterbury-Bankstown
-2020-12-31,2145,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2020-12-31,2145,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2020-12-31,2060,Overseas,X760,Northern Sydney,15950,North Sydney
-2020-12-31,2000,Overseas,X720,South Eastern Sydney,17200,Sydney
-2020-12-31,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2020-12-31,,Overseas,,,,
 2020-12-31,2145,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2020-12-31,2145,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2020-12-31,2060,Overseas,X760,Northern Sydney,15950,North Sydney
 2020-12-31,2145,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2020-12-31,2145,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2020-12-31,2145,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2020-12-31,2000,Overseas,X720,South Eastern Sydney,17200,Sydney
+2020-12-31,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-01,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
-2021-01-01,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
 2021-01-01,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
-2021-01-01,2019,Overseas,X720,South Eastern Sydney,10500,Bayside
-2021-01-01,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
-2021-01-01,2144,Overseas,X740,Western Sydney,12380,Cumberland
 2021-01-01,2769,Overseas,X740,Western Sydney,10750,Blacktown
+2021-01-01,2144,Overseas,X740,Western Sydney,12380,Cumberland
+2021-01-01,2019,Overseas,X720,South Eastern Sydney,10500,Bayside
+2021-01-01,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
 2021-01-01,2192,Locally acquired - investigation ongoing,X700,Sydney,11570,Canterbury-Bankstown
+2021-01-01,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
 2021-01-01,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
 2021-01-01,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
 2021-01-01,2119,Overseas,X760,Northern Sydney,14000,Hornsby
-2021-01-01,2067,Locally acquired - linked to known case or cluster,X760,Northern Sydney,18250,Willoughby
-2021-01-01,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
-2021-01-01,,Overseas,,,,
-2021-01-01,,Overseas,,,,
-2021-01-01,,Overseas,,,,
 2021-01-01,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
+2021-01-01,,Overseas,,,,
+2021-01-01,,Overseas,,,,
+2021-01-01,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
+2021-01-01,2067,Locally acquired - linked to known case or cluster,X760,Northern Sydney,18250,Willoughby
+2021-01-01,,Overseas,,,,
 2021-01-02,2223,Locally acquired - linked to known case or cluster,X720,South Eastern Sydney,12930,Georges River
-2021-01-02,,Overseas,,,,
+2021-01-02,2500,Locally acquired - linked to known case or cluster,X730,Illawarra Shoalhaven,18450,Wollongong
 2021-01-02,2148,Overseas,X740,Western Sydney,10750,Blacktown
 2021-01-02,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-02,2076,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
+2021-01-02,,Overseas,,,,
 2021-01-02,2102,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2021-01-02,2500,Locally acquired - linked to known case or cluster,X730,Illawarra Shoalhaven,18450,Wollongong
-2021-01-03,,Overseas,,,,
-2021-01-03,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2021-01-03,,Overseas,,,,
-2021-01-03,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-03,2150,Overseas,X740,Western Sydney,16260,Parramatta
 2021-01-03,2770,Overseas,X740,Western Sydney,10750,Blacktown
-2021-01-03,2076,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
 2021-01-03,,Overseas,,,,
-2021-01-03,2478,Overseas,X810,Northern NSW,10250,Ballina
-2021-01-03,2478,Overseas,X810,Northern NSW,10250,Ballina
+2021-01-03,,Overseas,,,,
+2021-01-03,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-03,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-03,2194,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
-2021-01-04,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-03,2478,Overseas,X810,Northern NSW,10250,Ballina
+2021-01-03,2076,Overseas,X760,Northern Sydney,14500,Ku-ring-gai
+2021-01-03,2478,Overseas,X810,Northern NSW,10250,Ballina
+2021-01-03,,Overseas,,,,
 2021-01-04,2251,Overseas,X770,Central Coast,11650,Central Coast
 2021-01-04,2147,Overseas,X740,Western Sydney,10750,Blacktown
+2021-01-04,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-04,2143,Locally acquired - linked to known case or cluster,X740,Western Sydney,11570,Canterbury-Bankstown
-2021-01-05,2122,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
 2021-01-05,,Overseas,,,,
-2021-01-05,2145,Locally acquired - no links to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-05,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2021-01-06,,Overseas,,,,
+2021-01-05,2145,Locally acquired - no links to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-05,2122,Locally acquired - linked to known case or cluster,X760,Northern Sydney,16700,Ryde
 2021-01-06,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
-2021-01-06,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2021-01-06,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
-2021-01-06,,Overseas,,,,
-2021-01-06,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
-2021-01-06,,Overseas,,,,
-2021-01-06,,Overseas,,,,
-2021-01-06,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
-2021-01-06,2630,Overseas,X830,Southern NSW,17040,Snowy Monaro Regional
-2021-01-06,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-06,2290,Overseas,X800,Hunter New England,14650,Lake Macquarie
+2021-01-06,,Overseas,,,,
+2021-01-06,,Overseas,,,,
+2021-01-06,,Overseas,,,,
+2021-01-06,,Overseas,,,,
+2021-01-06,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
+2021-01-06,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-06,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-06,2630,Overseas,X830,Southern NSW,17040,Snowy Monaro Regional
+2021-01-06,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
+2021-01-06,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
+2021-01-07,,Overseas,,,,
 2021-01-07,2541,Overseas,X730,Illawarra Shoalhaven,16950,Shoalhaven
 2021-01-07,2107,Locally acquired - investigation ongoing,X760,Northern Sydney,15990,Northern Beaches
-2021-01-07,,Overseas,,,,
 2021-01-07,2194,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-07,2045,Overseas,X700,Sydney,14170,Inner West
-2021-01-08,2087,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
-2021-01-08,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
-2021-01-08,2161,Overseas,X740,Western Sydney,12380,Cumberland
-2021-01-08,,Overseas,,,,
-2021-01-08,2160,Overseas,X740,Western Sydney,12380,Cumberland
-2021-01-08,2779,Overseas,X750,Nepean Blue Mountains,10900,Blue Mountains
 2021-01-08,2211,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2021-01-08,2779,Overseas,X750,Nepean Blue Mountains,10900,Blue Mountains
+2021-01-08,,Overseas,,,,
 2021-01-08,2305,Overseas,X800,Hunter New England,15900,Newcastle
-2021-01-08,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
 2021-01-08,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-08,,Overseas,,,,
-2021-01-09,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
+2021-01-08,2564,Locally acquired - linked to known case or cluster,X710,South Western Sydney,11500,Campbelltown
+2021-01-08,2087,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
+2021-01-08,2161,Overseas,X740,Western Sydney,12380,Cumberland
+2021-01-08,2160,Overseas,X740,Western Sydney,12380,Cumberland
+2021-01-08,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-09,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-09,,Overseas,,,,
+2021-01-09,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-09,2213,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
 2021-01-09,2145,Overseas,X740,Western Sydney,12380,Cumberland
 2021-01-09,,Overseas,,,,
 2021-01-09,,Overseas,,,,
 2021-01-10,2088,Overseas,X760,Northern Sydney,15350,Mosman
-2021-01-10,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-10,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-10,,Overseas,,,,
 2021-01-10,,Overseas,,,,
-2021-01-10,2766,Locally acquired - no links to known case or cluster,X740,Western Sydney,10750,Blacktown
-2021-01-10,,Overseas,,,,
-2021-01-10,,Overseas,,,,
 2021-01-10,2101,Locally acquired - investigation ongoing,X760,Northern Sydney,15990,Northern Beaches
+2021-01-10,2766,Locally acquired - no links to known case or cluster,X740,Western Sydney,10750,Blacktown
 2021-01-10,2350,Overseas,X800,Hunter New England,10130,Armidale Regional
-2021-01-10,2619,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
+2021-01-10,,Overseas,,,,
+2021-01-10,,Overseas,,,,
+2021-01-10,2141,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-10,2088,Overseas,X760,Northern Sydney,15350,Mosman
-2021-01-11,2630,Overseas,X830,Southern NSW,17040,Snowy Monaro Regional
-2021-01-11,,Overseas,,,,
-2021-01-11,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
-2021-01-11,2315,Overseas,X800,Hunter New England,16400,Port Stephens
+2021-01-10,2619,Overseas,X830,Southern NSW,16490,Queanbeyan-Palerang Regional
 2021-01-11,2161,Overseas,X740,Western Sydney,12380,Cumberland
+2021-01-11,2195,Overseas,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-11,2088,Overseas,X760,Northern Sydney,15350,Mosman
-2021-01-11,2766,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
 2021-01-11,,Overseas,,,,
-2021-01-11,2213,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2021-01-11,2630,Overseas,X830,Southern NSW,17040,Snowy Monaro Regional
+2021-01-11,2766,Locally acquired - linked to known case or cluster,X740,Western Sydney,10750,Blacktown
+2021-01-11,2315,Overseas,X800,Hunter New England,16400,Port Stephens
 2021-01-11,2193,Locally acquired - linked to known case or cluster,X700,Sydney,11570,Canterbury-Bankstown
+2021-01-11,2213,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2021-01-11,,Overseas,,,,
 2021-01-11,2101,Locally acquired - linked to known case or cluster,X760,Northern Sydney,15990,Northern Beaches
 2021-01-12,2145,Overseas,X740,Western Sydney,12380,Cumberland
 2021-01-12,2565,Overseas,X710,South Western Sydney,11500,Campbelltown
@@ -4849,82 +4849,82 @@ notification_date,postcode,likely_source_of_infection,lhd_2010_code,lhd_2010_nam
 2021-01-12,,Overseas,,,,
 2021-01-13,,Overseas,,,,
 2021-01-13,,Overseas,,,,
-2021-01-14,,Overseas,,,,
 2021-01-14,2212,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
+2021-01-14,,Overseas,,,,
 2021-01-15,,Overseas,,,,
 2021-01-15,,Overseas,,,,
+2021-01-15,2486,Overseas,X810,Northern NSW,17550,Tweed
+2021-01-15,2770,Overseas,X740,Western Sydney,10750,Blacktown
+2021-01-15,2144,Locally acquired - no links to known case or cluster,X740,Western Sydney,12380,Cumberland
 2021-01-15,,Overseas,,,,
 2021-01-15,2065,Overseas,X760,Northern Sydney,14700,Lane Cove
 2021-01-15,2230,Overseas,X720,South Eastern Sydney,17150,Sutherland Shire
 2021-01-15,,Overseas,,,,
 2021-01-15,,Overseas,,,,
-2021-01-15,2770,Overseas,X740,Western Sydney,10750,Blacktown
-2021-01-15,2486,Overseas,X810,Northern NSW,17550,Tweed
-2021-01-15,,Overseas,,,,
-2021-01-15,2194,Overseas,X700,Sydney,11570,Canterbury-Bankstown
-2021-01-15,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
 2021-01-15,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2021-01-15,2144,Locally acquired - no links to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-15,2194,Overseas,X700,Sydney,11570,Canterbury-Bankstown
+2021-01-15,,Overseas,,,,
+2021-01-15,2023,Overseas,X720,South Eastern Sydney,18500,Woollahra
 2021-01-16,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2021-01-16,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-16,2170,Overseas,X710,South Western Sydney,14900,Liverpool
+2021-01-16,2088,Overseas,X760,Northern Sydney,15350,Mosman
+2021-01-16,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
+2021-01-16,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
 2021-01-16,,Overseas,,,,
 2021-01-16,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2021-01-16,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
-2021-01-16,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2021-01-16,2095,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2021-01-16,2088,Overseas,X760,Northern Sydney,15350,Mosman
 2021-01-16,2199,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
-2021-01-16,2170,Overseas,X710,South Western Sydney,14900,Liverpool
-2021-01-16,,Overseas,,,,
-2021-01-16,2088,Overseas,X760,Northern Sydney,15350,Mosman
 2021-01-16,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-16,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-16,,Overseas,,,,
 2021-01-16,2170,Overseas,X710,South Western Sydney,14900,Liverpool
+2021-01-16,2144,Locally acquired - linked to known case or cluster,X740,Western Sydney,12380,Cumberland
+2021-01-16,2088,Overseas,X760,Northern Sydney,15350,Mosman
 2021-01-17,,Overseas,,,,
 2021-01-17,,Overseas,,,,
 2021-01-18,2261,Overseas,X770,Central Coast,11650,Central Coast
-2021-01-19,,Overseas,,,,
 2021-01-19,2120,Overseas,X760,Northern Sydney,14000,Hornsby
+2021-01-19,,Overseas,,,,
 2021-01-19,2303,Overseas,X800,Hunter New England,15900,Newcastle
 2021-01-19,,Overseas,,,,
-2021-01-20,2170,Overseas,X710,South Western Sydney,14900,Liverpool
-2021-01-20,,Overseas,,,,
 2021-01-20,2217,Overseas,X720,South Eastern Sydney,10500,Bayside
-2021-01-20,2046,Overseas,X700,Sydney,11520,Canada Bay
 2021-01-20,,Overseas,,,,
+2021-01-20,,Overseas,,,,
+2021-01-20,2170,Overseas,X710,South Western Sydney,14900,Liverpool
+2021-01-20,2046,Overseas,X700,Sydney,11520,Canada Bay
 2021-01-22,,Overseas,,,,
+2021-01-23,,Overseas,,,,
 2021-01-23,,Overseas,,,,
 2021-01-23,,Overseas,,,,
 2021-01-23,2120,Overseas,X760,Northern Sydney,14000,Hornsby
 2021-01-23,,Overseas,,,,
-2021-01-23,,Overseas,,,,
 2021-01-24,,Overseas,,,,
+2021-01-25,2194,Overseas,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-25,2028,Overseas,X720,South Eastern Sydney,18500,Woollahra
 2021-01-25,2103,Overseas,X760,Northern Sydney,15990,Northern Beaches
-2021-01-25,2194,Overseas,X700,Sydney,11570,Canterbury-Bankstown
 2021-01-26,,Overseas,,,,
-2021-01-27,,Overseas,,,,
 2021-01-27,2067,Overseas,X760,Northern Sydney,18250,Willoughby
 2021-01-27,2031,Overseas,X720,South Eastern Sydney,16550,Randwick
 2021-01-27,2112,Overseas,X760,Northern Sydney,16700,Ryde
+2021-01-27,,Overseas,,,,
 2021-01-28,,Overseas,,,,
 2021-01-28,,Overseas,,,,
 2021-01-28,,Overseas,,,,
 2021-01-28,,Overseas,,,,
-2021-01-29,2020,Overseas,X720,South Eastern Sydney,10500,Bayside
 2021-01-29,,Overseas,,,,
 2021-01-29,2768,Overseas,X740,Western Sydney,10750,Blacktown
+2021-01-29,2020,Overseas,X720,South Eastern Sydney,10500,Bayside
 2021-01-30,2200,Overseas,X710,South Western Sydney,11570,Canterbury-Bankstown
 2021-01-30,,Overseas,,,,
 2021-01-31,,Overseas,,,,
 2021-01-31,2258,Overseas,X770,Central Coast,11650,Central Coast
-2021-01-31,2049,Overseas,X700,Sydney,14170,Inner West
 2021-01-31,2153,Overseas,X740,Western Sydney,17420,The Hills Shire
+2021-01-31,2049,Overseas,X700,Sydney,14170,Inner West
 2021-02-01,,Overseas,,,,
 2021-02-01,,Overseas,,,,
 2021-02-02,,Overseas,,,,
 2021-02-02,,Overseas,,,,
-2021-02-03,,Overseas,,,,
 2021-02-03,2150,Overseas,X740,Western Sydney,16260,Parramatta
+2021-02-03,,Overseas,,,,
 2021-02-03,,Overseas,,,,
 2021-02-05,2176,Overseas,X710,South Western Sydney,12850,Fairfield
 2021-02-05,,Overseas,,,,
