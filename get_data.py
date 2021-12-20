@@ -5,18 +5,21 @@ import subprocess
 import os
 import sys
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 import pandas as pd
+
 
 def contains_future_date(series):
     try:
         return (series > datetime.now()).any()
-    except TypeError as err:
-        raise TypeError(f'series must have datetime compatible dtype')
+    except TypeError:
+        raise TypeError('series must have datetime compatible dtype')
+
 
 def main():
     # Download data
-    cases_data_url = 'https://data.nsw.gov.au/data/dataset/97ea2424-abaf-4f3e-a9f2-b5c883f42b6a/resource/2776dbb8-f807-4fb2-b1ed-184a6fc2c8aa/download/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'
+    # cases_data_url = 'https://data.nsw.gov.au/data/dataset/97ea2424-abaf-4f3e-a9f2-b5c883f42b6a/resource/2776dbb8-f807-4fb2-b1ed-184a6fc2c8aa/download/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'
+    cases_data_url = 'https://data.nsw.gov.au/data/dataset/aefcde60-3b0c-4bc0-9af1-6fe652944ec2/resource/21304414-1ff1-4243-a5d2-f52778048b29/download/confirmed_cases_table1_location.csv'
     tests_data_url = 'https://data.nsw.gov.au/data/dataset/60616720-3c60-4c52-b499-751f31e3b132/resource/fb95de01-ad82-4716-ab9a-e15cf2c78556/download/covid-19-tests-by-date-and-postcode-local-health-district-and-local-government-area-aggregated.csv'
 
     urls = [cases_data_url, tests_data_url]
@@ -45,20 +48,24 @@ def main():
     # Process cases file
     cases_df = dfs['case']
 
-    infection_source_mapping = {
-        'Locally acquired - contact of a confirmed case and/or in a known cluster': 'Local contact',
-        'Locally acquired - source not identified': 'Local unknown'
-    }
+    # infection_source_mapping = {
+    #     'Locally acquired - contact of a confirmed case and/or in a known cluster': 'Local contact',
+    #     'Locally acquired - source not identified': 'Local unknown'
+    # }
 
-    cases_df['likely_source_of_infection'] = (
-        cases_df['likely_source_of_infection']
-        .replace(infection_source_mapping))
+    # cases_df['likely_source_of_infection'] = (
+    #     cases_df['likely_source_of_infection']
+    #     .replace(infection_source_mapping))
 
     cases_df['lga_name19'] = cases_df['lga_name19'].str.replace(
         r' *\(.*\) *', '', regex=True)
 
+    # cases_df.to_csv(
+    #     'covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv',
+    #     index=False)
+
     cases_df.to_csv(
-        'covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv',
+        'confirmed_cases_table1_location.csv',
         index=False)
 
     # Push latest data to GitHub

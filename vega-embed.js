@@ -38,7 +38,7 @@ var daily_and_cumulative_cases_spec = {
   height: 'container',
   config: sws_phn_config,
   title: 'South Western Sydney Cumulative and Daily COVID-19 Cases by LGA',
-  data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
+  data: {url: 'https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location.csv'},
   transform: [
     {
       filter: {
@@ -95,11 +95,11 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
   width: 'container',
   height: 'container',
   config: sws_phn_config,
-  title: 'South Western Sydney Daily Tests and Cases by Infection Source',
+  title: 'South Western Sydney Daily Tests and Daily Cases',
   layer: [
     {
       selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
-      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv'},
+      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location.csv'},
       transform: [
         {
           filter: {
@@ -112,22 +112,32 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
       ],
       mark: {type: 'bar', tooltip: true},
       encoding: {
-        x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: 'Date'},
-        color: {
-          field: 'likely_source_of_infection',
-          type: 'nominal',
-          title: 'Infection Source',
-          legend: {orient: "top"}
-        },
+        x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: "Date"},
+        color: {field: 'lga_name19', type: 'nominal', title: "LGA", legend: {orient: "top", columns: 4}},
         y: {
           aggregate: 'count',
-          field: 'likely_source_of_infection',
+          field: 'lga_name19',
           type: 'quantitative',
-          title: 'Cases',
+          title: "Cases",
           axis: {
-            title: 'Daily Cases by Infection Source'
+            title: 'Daily Cases by SWS LGA'
           }
         }
+        // color: {
+        //   field: 'likely_source_of_infection',
+        //   type: 'nominal',
+        //   title: 'Infection Source',
+        //   legend: {orient: "top"}
+        // },
+        // y: {
+        //   aggregate: 'count',
+        //   field: 'likely_source_of_infection',
+        //   type: 'quantitative',
+        //   title: 'Cases',
+        //   axis: {
+        //     title: 'Daily Cases by Infection Source'
+        //   }
+        // }
       }
     },
     {
@@ -169,7 +179,7 @@ var cumulative_cases_by_SWS_LGA_spec = {
   selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
   resolve: {scale: {y: 'independent'}},
   data: {
-    url: "https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv"
+    url: "https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location.csv"
   },
   transform: [
     {
@@ -219,7 +229,7 @@ var cumulative_cases_by_postcode_template = {
   selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
   resolve: {scale: {y: 'independent'}},
   data: {
-    url: "https://davidwales.github.io/nsw-covid-19-data/covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv"
+    url: "https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location.csv"
   },
   transform: [
     {
