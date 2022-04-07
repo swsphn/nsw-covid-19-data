@@ -34,7 +34,7 @@ def main():
     date_columns = {'case': 'notification_date',
                     'test': 'test_date'}
     names = date_columns.keys()
-    name_file_pairs = zip(names, files)
+    name_file_pairs = tuple(zip(names, files))
 
     dfs = {}
     for name, file in name_file_pairs:
@@ -65,8 +65,9 @@ def main():
     #     'covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv',
     #     index=False)
 
+    print(dict(name_file_pairs))
     cases_df.to_csv(
-        name_file_pairs['case'],
+        dict(name_file_pairs)['case'],
         index=False)
 
     # Push latest data to GitHub

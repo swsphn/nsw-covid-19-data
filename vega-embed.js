@@ -38,7 +38,7 @@ var daily_and_cumulative_cases_spec = {
   height: 'container',
   config: sws_phn_config,
   title: 'South Western Sydney Cumulative and Daily COVID-19 Cases by LGA',
-  data: {url: 'https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location.csv'},
+  data: {url: 'https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv'},
   transform: [
     {
       filter: {
@@ -49,7 +49,7 @@ var daily_and_cumulative_cases_spec = {
       }
     },
     {
-      window: [{op: 'count', field: 'notification_date', as: 'cumulative_count'}],
+      window: [{op: 'sum', field: 'confirmed_cases_count', as: 'cumulative_count'}],
       frame: [null,0]
     }
   ],
@@ -61,8 +61,8 @@ var daily_and_cumulative_cases_spec = {
         x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: "Date"},
         color: {field: 'lga_name19', type: 'nominal', title: "LGA", legend: {orient: "top", columns: 4}},
         y: {
-          aggregate: 'count',
-          field: 'lga_name19',
+          aggregate: 'sum',
+          field: 'confirmed_cases_count',
           type: 'quantitative',
           title: "Cases",
           axis: {
@@ -99,7 +99,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
   layer: [
     {
       selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
-      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location.csv'},
+      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv'},
       transform: [
         {
           filter: {
@@ -115,8 +115,8 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
         x: {timeUnit: 'yearmonthdate', field: 'notification_date', type: 'temporal', title: "Date"},
         color: {field: 'lga_name19', type: 'nominal', title: "LGA", legend: {orient: "top", columns: 4}},
         y: {
-          aggregate: 'count',
-          field: 'lga_name19',
+          aggregate: 'sum',
+          field: 'confirmed_cases_count',
           type: 'quantitative',
           title: "Cases",
           axis: {
@@ -179,7 +179,7 @@ var cumulative_cases_by_SWS_LGA_spec = {
   selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
   resolve: {scale: {y: 'independent'}},
   data: {
-    url: "https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location.csv"
+    url: "https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv"
   },
   transform: [
     {
@@ -191,7 +191,7 @@ var cumulative_cases_by_SWS_LGA_spec = {
       }
     },
     {
-      aggregate: [{op: "count", as: "date_lga_count"}],
+      aggregate: [{op: "sum", field:"confirmed_cases_count", as: "date_lga_count"}],
       groupby: ["notification_date", "lga_name19"]
     },
     {
@@ -229,7 +229,7 @@ var cumulative_cases_by_postcode_template = {
   selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
   resolve: {scale: {y: 'independent'}},
   data: {
-    url: "https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location.csv"
+    url: "https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv"
   },
   transform: [
     {
@@ -241,7 +241,7 @@ var cumulative_cases_by_postcode_template = {
       }
     },
     {
-      aggregate: [{op: "count", as: "date_postcode_count"}],
+      aggregate: [{op: "sum", field:"confirmed_cases_count", as: "date_postcode_count"}],
       groupby: ["notification_date", "postcode"]
     },
     {
