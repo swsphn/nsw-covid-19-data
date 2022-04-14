@@ -65,7 +65,6 @@ def main():
     #     'covid-19-cases-by-notification-date-location-and-likely-source-of-infection.csv',
     #     index=False)
 
-    print(dict(name_file_pairs))
     cases_df.to_csv(
         dict(name_file_pairs)['case'],
         index=False)
