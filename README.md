@@ -2,7 +2,7 @@
 
 ## Charts
 
-See [here](https://davidwales.github.io/nsw-covid-19-data/).
+See [here](https://swsphn.github.io/nsw-covid-19-data/).
 
 ## Data
 

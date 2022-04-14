@@ -38,7 +38,7 @@ var daily_and_cumulative_cases_spec = {
   height: 'container',
   config: sws_phn_config,
   title: 'South Western Sydney Cumulative and Daily COVID-19 Cases by LGA',
-  data: {url: 'https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv'},
+  data: {url: 'https://swsphn.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv'},
   transform: [
     {
       filter: {
@@ -99,7 +99,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
   layer: [
     {
       selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
-      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv'},
+      data: {url: 'https://swsphn.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv'},
       transform: [
         {
           filter: {
@@ -141,7 +141,7 @@ var daily_cases_by_transmission_and_daily_tests_spec = {
       }
     },
     {
-      data: {url: 'https://davidwales.github.io/nsw-covid-19-data/covid-19-tests-by-date-and-postcode-local-health-district-and-local-government-area-aggregated.csv'},
+      data: {url: 'https://swsphn.github.io/nsw-covid-19-data/covid-19-tests-by-date-and-postcode-local-health-district-and-local-government-area-aggregated.csv'},
       transform: [
         {
           filter: {
@@ -179,7 +179,7 @@ var cumulative_cases_by_SWS_LGA_spec = {
   selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
   resolve: {scale: {y: 'independent'}},
   data: {
-    url: "https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv"
+    url: "https://swsphn.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv"
   },
   transform: [
     {
@@ -229,7 +229,7 @@ var cumulative_cases_by_postcode_template = {
   selection: {date: {type: 'interval', bind: 'scales', encodings: ['x']}},
   resolve: {scale: {y: 'independent'}},
   data: {
-    url: "https://davidwales.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv"
+    url: "https://swsphn.github.io/nsw-covid-19-data/confirmed_cases_table1_location_agg.csv"
   },
   transform: [
     {
